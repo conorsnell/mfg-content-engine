@@ -1,0 +1,224 @@
+[
+  {
+    "id": "acme-foundry",
+    "name": "Acme Foundry, Inc.",
+    "pm": "Anthony",
+    "writer": "Jake",
+    "industry": "Metal Casting & Foundry",
+    "what_they_make": "Gray iron, ductile iron, and aluminum castings for automotive, industrial, and agricultural applications",
+    "who_they_sell_to": "OEMs in automotive and heavy equipment industries, tier-1 and tier-2 suppliers, industrial manufacturers",
+    "key_differentiators": [
+      "Tight tolerances on complex geometries",
+      "In-house pattern making and tooling",
+      "PPAP and APQP capabilities for automotive compliance",
+      "Domestic US manufacturer with fast lead times vs. overseas"
+    ],
+    "common_customer_pain_points": [
+      "Overseas supplier quality issues and long lead times",
+      "Need for engineering support during design phase",
+      "Regulatory and compliance traceability requirements"
+    ],
+    "certifications": ["ISO 9001:2015", "IATF 16949"],
+    "target_industries": ["Automotive", "Agriculture", "Industrial Equipment", "Hydraulics"],
+    "tone": "Professional, straightforward, technically credible. Client is direct and no-nonsense.",
+    "avoid": ["Overly salesy language", "Vague claims without specifics"],
+    "past_topics": ["Gray iron vs. ductile iron", "How to specify a casting order", "PPAP process overview"],
+    "approval_contact": "Savannah",
+    "services": ["Blog", "Email", "LinkedIn"],
+    "notes": "New POC is Savannah. Solid relationship. Responds well to technical content."
+  },
+  {
+    "id": "benchmark-foam",
+    "name": "Benchmark Foam, Inc.",
+    "pm": "Anthony",
+    "writer": "Ryann",
+    "industry": "Custom Foam Manufacturing",
+    "what_they_make": "Custom-cut expanded polystyrene (EPS) foam products for packaging, construction insulation, and cold chain applications",
+    "who_they_sell_to": "Product manufacturers needing custom protective packaging, contractors and builders, food and pharmaceutical cold chain companies",
+    "key_differentiators": [
+      "Precision CNC foam cutting for complex shapes",
+      "Fast turnaround on custom orders",
+      "Sustainable EPS recycling program",
+      "Design engineering support for packaging optimization"
+    ],
+    "common_customer_pain_points": [
+      "Product damage during shipping",
+      "Expensive custom packaging from large suppliers",
+      "Long lead times from overseas foam suppliers"
+    ],
+    "certifications": [],
+    "target_industries": ["Packaging", "Construction", "Food & Beverage", "Pharmaceutical", "Electronics"],
+    "tone": "Friendly and approachable, but technically credible. Jackie is the contact - has a good relationship with the team.",
+    "avoid": ["Overly technical jargon", "References to competitors by name"],
+    "past_topics": ["EPS foam vs. alternatives for protective packaging", "Cold chain packaging best practices", "Sustainability of EPS"],
+    "approval_contact": "Jackie",
+    "services": ["Blog", "Email"],
+    "notes": "Great relationship. Parted with sales team but kept marketing. Easy to work with."
+  },
+  {
+    "id": "maxwell-lighting",
+    "name": "Maxwell Lighting",
+    "pm": "Becky",
+    "writer": "Whitney",
+    "industry": "Commercial Lighting",
+    "what_they_make": "Custom and specification-grade commercial lighting solutions for new construction and lighting retrofit projects",
+    "who_they_sell_to": "Electrical contractors, architects and designers, building owners and facility managers, general contractors",
+    "key_differentiators": [
+      "Specification-grade product knowledge and consulting",
+      "Strong local relationships with contractors and designers",
+      "Energy audit and ROI modeling for retrofit projects",
+      "Fast project turnaround and reliable delivery"
+    ],
+    "common_customer_pain_points": [
+      "Energy costs from outdated lighting",
+      "Compliance with energy codes (ASHRAE, Title 24)",
+      "Complexity of specifying the right fixtures for a project"
+    ],
+    "certifications": ["DLC Listed Products", "Energy Star"],
+    "target_industries": ["Commercial Real Estate", "Industrial Facilities", "Municipal", "Hospitality", "Healthcare"],
+    "tone": "Consultative and educational. Owner is now a believer in SEO and content after seeing results. Very happy client.",
+    "avoid": ["Overly product-focused content without educational angle"],
+    "past_topics": ["LED retrofit ROI", "How to read a lighting spec sheet", "Choosing color temperature for commercial spaces"],
+    "approval_contact": "Owner (direct)",
+    "services": ["Blog", "Email", "Social Media"],
+    "notes": "One of oldest/first clients. Built their site. Becky wants to add case studies. Very happy with marketing results."
+  },
+  {
+    "id": "mectron-inspection",
+    "name": "Mectron Inspection Engineering",
+    "pm": "Anthony",
+    "writer": "Ryann",
+    "industry": "Precision Inspection Equipment",
+    "what_they_make": "Custom automated inspection and vision systems for high-precision manufacturing environments, including gauging, vision, and part sorting systems",
+    "who_they_sell_to": "Tier 1 and Tier 2 automotive suppliers, aerospace manufacturers, medical device manufacturers, precision machining shops",
+    "key_differentiators": [
+      "Fully custom engineered inspection systems (not off-the-shelf)",
+      "Deep automotive and aerospace domain expertise",
+      "Integration with existing production lines",
+      "Long-term service and calibration support"
+    ],
+    "common_customer_pain_points": [
+      "Scrap and rework costs from missed defects",
+      "Customer audit failures due to inspection gaps",
+      "Labor costs and inconsistency of manual inspection"
+    ],
+    "certifications": ["ISO 9001:2015"],
+    "target_industries": ["Automotive", "Aerospace", "Medical Devices", "Precision Manufacturing"],
+    "tone": "Technical and credible. Long sales cycle (systems sell for ~$1.5M). Content should build credibility and trust over time, not push for quick conversion.",
+    "avoid": ["Oversimplification of technical concepts", "Pricing mentions"],
+    "past_topics": ["Vision system vs. manual inspection ROI", "How to spec a custom gauging system", "IATF 16949 inspection requirements"],
+    "approval_contact": "Primary contact at Mectron",
+    "services": ["Blog"],
+    "notes": "Great 2-year relationship. Slow to approve content. Machines sell for $1.5M - long sales cycle. Tariffs hitting hard right now - could be a content angle."
+  },
+  {
+    "id": "lobepro-pumps",
+    "name": "LobePro Rotary Pumps",
+    "pm": "Anthony",
+    "writer": "Whitney",
+    "industry": "Industrial Pump Manufacturing",
+    "what_they_make": "Rotary lobe pumps for sanitary, industrial, and municipal applications, including food-grade and chemical-resistant configurations",
+    "who_they_sell_to": "Food and beverage processors, municipal water and wastewater utilities, chemical processors, pharmaceutical manufacturers",
+    "key_differentiators": [
+      "3A Sanitary certified pumps for food-grade applications",
+      "Wide range of materials for chemical compatibility",
+      "Direct manufacturer support and technical sizing expertise",
+      "Parts availability and fast lead times vs. European competitors"
+    ],
+    "common_customer_pain_points": [
+      "Pump selection complexity for viscous or shear-sensitive products",
+      "Downtime from pump failures in critical processes",
+      "Sanitary compliance requirements in food/pharma"
+    ],
+    "certifications": ["3A Sanitary", "ATEX (select models)"],
+    "target_industries": ["Food & Beverage", "Municipal Wastewater", "Chemical Processing", "Pharmaceutical"],
+    "tone": "Technical but accessible. Good content, but slow on email approvals. Content should lean into application-specific use cases.",
+    "avoid": ["Generic pump content that doesn't differentiate rotary lobe from centrifugal"],
+    "past_topics": ["Rotary lobe vs. centrifugal pumps", "Pump selection for high-viscosity fluids", "Sanitary pump CIP cleaning best practices"],
+    "approval_contact": "Primary contact",
+    "services": ["Blog", "Email", "LinkedIn"],
+    "notes": "Great content historically. Slow on email approval due to formatting. Parts sales dropped off - could be a pain point to address in content."
+  },
+  {
+    "id": "winona-powder-coating",
+    "name": "Winona Powder Coating, Inc.",
+    "pm": "Alison",
+    "writer": "Jake",
+    "industry": "Powder Coating & Surface Finishing",
+    "what_they_make": "Industrial powder coating services for metal components, including standard colors, custom colors, and specialty coatings",
+    "who_they_sell_to": "Metal fabricators, OEMs, job shops, and manufacturers needing finished surface treatment on steel, aluminum, and other metals",
+    "key_differentiators": [
+      "Fast turnaround (often 2-3 day standard, rush available)",
+      "Large batch capacity for production runs",
+      "Color matching and custom color development",
+      "Thorough surface prep included (sandblast, iron phosphate)"
+    ],
+    "common_customer_pain_points": [
+      "Slow turnaround from current coating suppliers holding up production",
+      "Inconsistent finish quality",
+      "Hidden costs from inadequate surface prep"
+    ],
+    "certifications": [],
+    "target_industries": ["Metal Fabrication", "Agriculture Equipment", "Automotive Aftermarket", "Outdoor Furniture", "Architecture"],
+    "tone": "Straightforward and practical. Client is great about providing photos and feedback. Content can highlight real shop work.",
+    "avoid": ["Overly technical chemistry content"],
+    "past_topics": ["Powder coat vs. liquid paint", "How to prep parts for powder coating", "Choosing the right powder coat for outdoor applications"],
+    "approval_contact": "Primary contact",
+    "services": ["Blog"],
+    "notes": "Really good about providing photos and feedback. Great client for showing real work."
+  },
+  {
+    "id": "mw-piping",
+    "name": "MW Piping Fabrication, LLC",
+    "pm": "Becky",
+    "writer": "Whitney",
+    "industry": "Custom Piping Fabrication",
+    "what_they_make": "Custom-fabricated piping systems and spools for industrial, oil & gas, and mechanical contractors, including carbon steel, stainless, and alloy pipe",
+    "who_they_sell_to": "Mechanical contractors, industrial plant owners, refineries, chemical plants, and power generation facilities",
+    "key_differentiators": [
+      "AWS-certified welders on staff",
+      "ASME B31.3 and B31.1 code compliance",
+      "In-house NDE/NDT testing",
+      "Fast turnaround on custom spool fabrication"
+    ],
+    "common_customer_pain_points": [
+      "Field welds causing schedule delays on construction projects",
+      "Finding a fabricator that can meet ASME code requirements",
+      "Quality documentation for owner/operator requirements"
+    ],
+    "certifications": ["ASME B31.3", "ASME B31.1", "AWS D1.1"],
+    "target_industries": ["Oil & Gas", "Chemical Processing", "Power Generation", "Industrial Construction"],
+    "tone": "Technical and code-focused. Recently very happy with marketing - just got a job because of organic search. Build on that momentum.",
+    "avoid": ["Content that implies they do work outside their core capabilities"],
+    "past_topics": ["Prefabricated piping vs. field welding", "ASME B31.3 process piping overview", "How to spec a piping spool order"],
+    "approval_contact": "Primary contact",
+    "services": ["Blog"],
+    "notes": "Built site live in 2025. Very happy. Just got a job from organic search. Was reluctant about content early on - now fully on board."
+  },
+  {
+    "id": "template-client",
+    "name": "ADD YOUR CLIENT HERE",
+    "pm": "PM Name",
+    "writer": "Writer Name",
+    "industry": "Your Client Industry",
+    "what_they_make": "Describe what they manufacture or produce",
+    "who_they_sell_to": "Describe their target buyers and decision-makers",
+    "key_differentiators": [
+      "Differentiator 1",
+      "Differentiator 2",
+      "Differentiator 3"
+    ],
+    "common_customer_pain_points": [
+      "Pain point 1",
+      "Pain point 2"
+    ],
+    "certifications": ["ISO 9001", "etc."],
+    "target_industries": ["Industry 1", "Industry 2"],
+    "tone": "Describe their voice and tone",
+    "avoid": ["Things to avoid in content for this client"],
+    "past_topics": ["Past topic 1", "Past topic 2"],
+    "approval_contact": "Contact name for approvals",
+    "services": ["Blog", "Email", "LinkedIn"],
+    "notes": "Any other relevant context for the writer or AI"
+  }
+]
