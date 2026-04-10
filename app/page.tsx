@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import clientsData from "@/data/clients.json";
 import { ContentType, CONTENT_TYPE_LABELS } from "@/lib/prompts";
 
@@ -13,6 +13,86 @@ const CONTENT_TYPES: { value: ContentType; label: string; description: string }[
   { value: "trade-show-followup", label: "Trade Show Follow-Up", description: "3-email post-show sequence" },
 ];
 
+// ── Markdown renderer ──────────────────────────────────────────────────────────
+
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+function processInline(text: string): string {
+  text = escapeHtml(text);
+  // Links before bold/italic so brackets don't interfere
+  text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+  text = text.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  text = text.replace(/\*([^*]+)\*/g, "<em>$1</em>");
+  return text;
+}
+
+function markdownToHtml(text: string): string {
+  if (!text) return "";
+
+  const lines = text.split("\n");
+  let html = "";
+  let inList = false;
+  let inMetaBlock = false;
+  let metaLines: string[] = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const trimmed = line.trim();
+
+    // Meta block delimiters (--- at start of document)
+    if (trimmed === "---") {
+      if (!inMetaBlock && i < 6) {
+        inMetaBlock = true;
+        metaLines = [];
+        continue;
+      } else if (inMetaBlock) {
+        inMetaBlock = false;
+        html += `<div class="meta-block">${metaLines.map((l) => `<div class="meta-line">${escapeHtml(l)}</div>`).join("")}</div>`;
+        continue;
+      }
+    }
+
+    if (inMetaBlock) {
+      metaLines.push(line);
+      continue;
+    }
+
+    // Close open list before non-list lines
+    if (inList && !trimmed.startsWith("- ") && !trimmed.startsWith("* ")) {
+      html += "</ul>";
+      inList = false;
+    }
+
+    if (trimmed === "") {
+      html += "<div class='spacer'></div>";
+    } else if (trimmed.startsWith("# ")) {
+      html += `<h1>${processInline(trimmed.slice(2))}</h1>`;
+    } else if (trimmed.startsWith("## ")) {
+      html += `<h2>${processInline(trimmed.slice(3))}</h2>`;
+    } else if (trimmed.startsWith("### ")) {
+      html += `<h3>${processInline(trimmed.slice(4))}</h3>`;
+    } else if (trimmed.startsWith("- ") || trimmed.startsWith("* ")) {
+      if (!inList) {
+        html += "<ul>";
+        inList = true;
+      }
+      html += `<li>${processInline(trimmed.slice(2))}</li>`;
+    } else {
+      html += `<p>${processInline(trimmed)}</p>`;
+    }
+  }
+
+  if (inList) html += "</ul>";
+  return html;
+}
+
+// ── Component ──────────────────────────────────────────────────────────────────
+
 export default function Home() {
   const [selectedClientId, setSelectedClientId] = useState<string>("");
   const [contentType, setContentType] = useState<ContentType>("blog");
@@ -22,10 +102,18 @@ export default function Home() {
   const [isGenerating, setIsGenerating] = useState(false);
   const [error, setError] = useState("");
   const [copyLabel, setCopyLabel] = useState("Copy");
+  const [viewMode, setViewMode] = useState<"preview" | "markdown">("preview");
   const outputRef = useRef<HTMLTextAreaElement>(null);
 
   const selectedClient = clientsData.find((c) => c.id === selectedClientId);
   const activeClients = clientsData.filter((c) => c.id !== "template-client");
+
+  // Switch to preview automatically once generation finishes
+  useEffect(() => {
+    if (!isGenerating && output) {
+      setViewMode("preview");
+    }
+  }, [isGenerating]);
 
   async function handleGenerate() {
     if (!selectedClientId || !topic.trim()) {
@@ -34,6 +122,7 @@ export default function Home() {
     }
     setError("");
     setOutput("");
+    setViewMode("markdown"); // show raw text while streaming
     setIsGenerating(true);
 
     try {
@@ -89,8 +178,55 @@ export default function Home() {
     setError("");
   }
 
+  const wordCount = Math.ceil(output.split(/\s+/).filter(Boolean).length);
+
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Markdown preview styles */}
+      <style>{`
+        .markdown-preview h1 {
+          font-size: 1.45rem; font-weight: 700; color: #111827;
+          margin: 1.25rem 0 0.5rem; line-height: 1.3;
+        }
+        .markdown-preview h2 {
+          font-size: 1.1rem; font-weight: 700; color: #1f2937;
+          margin: 1.5rem 0 0.4rem;
+          padding-bottom: 0.3rem;
+          border-bottom: 2px solid #e5e7eb;
+          text-transform: uppercase; letter-spacing: 0.02em;
+        }
+        .markdown-preview h3 {
+          font-size: 0.95rem; font-weight: 700; color: #374151;
+          margin: 1rem 0 0.25rem;
+        }
+        .markdown-preview p {
+          font-size: 0.875rem; color: #374151;
+          line-height: 1.75; margin: 0.4rem 0;
+        }
+        .markdown-preview ul {
+          list-style-type: disc; padding-left: 1.4rem; margin: 0.4rem 0;
+        }
+        .markdown-preview li {
+          font-size: 0.875rem; color: #374151;
+          line-height: 1.7; margin: 0.2rem 0;
+        }
+        .markdown-preview a {
+          color: #2563eb; text-decoration: underline;
+        }
+        .markdown-preview a:hover { color: #1d4ed8; }
+        .markdown-preview strong { font-weight: 700; }
+        .markdown-preview em { font-style: italic; }
+        .markdown-preview .meta-block {
+          background: #f8fafc; border: 1px solid #cbd5e1;
+          border-left: 3px solid #3b82f6;
+          border-radius: 0.375rem; padding: 0.75rem 1rem;
+          margin-bottom: 1.25rem; font-family: monospace;
+          font-size: 0.8rem; color: #475569; line-height: 1.6;
+        }
+        .markdown-preview .meta-line { margin: 0.1rem 0; }
+        .markdown-preview .spacer { height: 0.5rem; }
+      `}</style>
+
       {/* Header */}
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
@@ -166,7 +302,7 @@ export default function Home() {
                       <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
                       </svg>
-                      {selectedClient.website.replace(/^https?:\/\//, '')}
+                      {selectedClient.website.replace(/^https?:\/\//, "")}
                     </a>
                   ) : (
                     <p className="text-xs text-amber-600 mt-1 italic">No website on file — add to clients.json for internal linking</p>
@@ -271,12 +407,35 @@ export default function Home() {
           {/* RIGHT: Output Panel */}
           <div className="bg-white rounded-xl border border-gray-200 flex flex-col" style={{ minHeight: "600px" }}>
             <div className="flex items-center justify-between px-6 py-4 border-b border-gray-100">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-3">
                 <span className="text-sm font-medium text-gray-700">Draft Output</span>
                 {output && (
-                  <span className="text-xs text-gray-400">
-                    ~{Math.ceil(output.split(/\s+/).filter(Boolean).length)} words
-                  </span>
+                  <span className="text-xs text-gray-400">~{wordCount} words</span>
+                )}
+                {/* Preview / Markdown toggle */}
+                {output && !isGenerating && (
+                  <div className="flex items-center bg-gray-100 rounded-md p-0.5 ml-1">
+                    <button
+                      onClick={() => setViewMode("preview")}
+                      className={`text-xs px-2.5 py-1 rounded transition-all font-medium ${
+                        viewMode === "preview"
+                          ? "bg-white text-gray-800 shadow-sm"
+                          : "text-gray-500 hover:text-gray-700"
+                      }`}
+                    >
+                      Preview
+                    </button>
+                    <button
+                      onClick={() => setViewMode("markdown")}
+                      className={`text-xs px-2.5 py-1 rounded transition-all font-medium ${
+                        viewMode === "markdown"
+                          ? "bg-white text-gray-800 shadow-sm"
+                          : "text-gray-500 hover:text-gray-700"
+                      }`}
+                    >
+                      Markdown
+                    </button>
+                  </div>
                 )}
               </div>
               {output && (
@@ -297,7 +456,8 @@ export default function Home() {
               )}
             </div>
 
-            <div className="flex-1 p-6">
+            <div className="flex-1 p-6 overflow-hidden flex flex-col">
+              {/* Empty state */}
               {!output && !isGenerating && (
                 <div className="h-full flex flex-col items-center justify-center text-center text-gray-400 space-y-3">
                   <svg className="h-10 w-10 text-gray-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -310,14 +470,23 @@ export default function Home() {
                 </div>
               )}
 
-              {(output || isGenerating) && (
+              {/* Streaming / Markdown edit view */}
+              {(output || isGenerating) && viewMode === "markdown" && (
                 <textarea
                   ref={outputRef}
                   value={output}
                   onChange={(e) => setOutput(e.target.value)}
-                  className="w-full h-full min-h-96 text-sm text-gray-800 leading-relaxed font-mono resize-none focus:outline-none bg-transparent"
+                  className="w-full flex-1 min-h-96 text-sm text-gray-800 leading-relaxed font-mono resize-none focus:outline-none bg-transparent"
                   placeholder={isGenerating ? "Writing your draft..." : ""}
                   spellCheck={true}
+                />
+              )}
+
+              {/* Rendered preview view */}
+              {output && !isGenerating && viewMode === "preview" && (
+                <div
+                  className="markdown-preview flex-1 overflow-y-auto"
+                  dangerouslySetInnerHTML={{ __html: markdownToHtml(output) }}
                 />
               )}
             </div>

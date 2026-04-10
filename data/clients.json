@@ -195,7 +195,7 @@
       "Pharmaceutical",
       "Electronics"
     ],
-    "tone": "Friendly and approachable but technically credible. Contact is Jackie \u2014 established relationship. Content can be practical and educational without heavy jargon.",
+    "tone": "Friendly and approachable but technically credible. Contact is Jackie — established relationship. Content can be practical and educational without heavy jargon.",
     "avoid": [
       "Complex chemistry or manufacturing jargon",
       "References to competitors by name"
@@ -537,7 +537,7 @@
     "services": [
       "Blog"
     ],
-    "notes": "Turning focus to collateral content. Needs extra attention \u2014 losing CSM too.",
+    "notes": "Turning focus to collateral content. Needs extra attention — losing CSM too.",
     "website": "https://detroitstoker.com"
   },
   {
@@ -690,7 +690,7 @@
       "Aerospace",
       "Industrial"
     ],
-    "tone": "Professional and precise. Whitney has a good handle on their preferences \u2014 follow her lead. Client is very particular. Keep content polished and accurate.",
+    "tone": "Professional and precise. Whitney has a good handle on their preferences — follow her lead. Client is very particular. Keep content polished and accurate.",
     "avoid": [
       "Anything generic or imprecise",
       "Content that oversimplifies their capabilities"
@@ -839,7 +839,7 @@
     "what_they_make": "Proprietary crystalline waterproofing admixture for concrete that provides integral waterproofing protection, used in below-grade construction, tunnels, parking structures, and water containment.",
     "who_they_sell_to": "Structural engineers, waterproofing consultants, general contractors, and ready-mix concrete producers on commercial and infrastructure construction projects",
     "key_differentiators": [
-      "Integral waterproofing that becomes part of the concrete matrix \u2014 not a surface coating",
+      "Integral waterproofing that becomes part of the concrete matrix — not a surface coating",
       "Self-healing properties that seal cracks over time",
       "Can be specified by engineers for design-build projects",
       "NSF 61 certified for potable water contact"
@@ -1089,7 +1089,7 @@
     "pm": "Ryan",
     "writer": "Jake",
     "industry": "Custom Manufacturing / Industrial Products",
-    "what_they_make": "Custom manufactured industrial products and components for OEM and industrial customers. (inferred \u2014 specific product line to be confirmed with client)",
+    "what_they_make": "Custom manufactured industrial products and components for OEM and industrial customers. (inferred — specific product line to be confirmed with client)",
     "who_they_sell_to": "OEMs and industrial buyers requiring custom manufactured components or products",
     "key_differentiators": [
       "Custom manufacturing capability to customer specifications",
@@ -1193,7 +1193,7 @@
       "Hydraulics",
       "Automotive"
     ],
-    "tone": "Consultative and technically credible. High tier client. Content should reflect the value of the integrated casting + machining model. Contact reads blogs aloud on calls \u2014 write for verbal clarity as well as reading.",
+    "tone": "Consultative and technically credible. High tier client. Content should reflect the value of the integrated casting + machining model. Contact reads blogs aloud on calls — write for verbal clarity as well as reading.",
     "avoid": [
       "Overly technical casting metallurgy without business context",
       "Fragmented content that misses the integrated value prop"
@@ -1234,7 +1234,7 @@
       "Medical",
       "Aerospace"
     ],
-    "tone": "Professional and technically credible. Autumn has owned historically \u2014 follow her established voice for this client.",
+    "tone": "Professional and technically credible. Autumn has owned historically — follow her established voice for this client.",
     "avoid": [
       "Generic machining content",
       "Vague quality claims"
@@ -1277,7 +1277,7 @@
       "Hospitality",
       "Healthcare"
     ],
-    "tone": "Consultative and educational. Owner is a believer in marketing and very happy with results. Becky wants to add case studies \u2014 lean into project stories and ROI when possible.",
+    "tone": "Consultative and educational. Owner is a believer in marketing and very happy with results. Becky wants to add case studies — lean into project stories and ROI when possible.",
     "avoid": [
       "Overly product-focused content that misses the educational angle",
       "Technical spec sheets without buyer context"
@@ -1298,7 +1298,7 @@
     "pm": "Anthony",
     "writer": "Ryann",
     "industry": "Precision Inspection & Automated Vision Systems",
-    "what_they_make": "Custom automated inspection systems, vision systems, and gauging equipment for high-precision manufacturing environments \u2014 including part sorting, dimensional verification, and defect detection systems.",
+    "what_they_make": "Custom automated inspection systems, vision systems, and gauging equipment for high-precision manufacturing environments — including part sorting, dimensional verification, and defect detection systems.",
     "who_they_sell_to": "Quality engineers, manufacturing engineers, and plant managers at tier 1 and tier 2 automotive suppliers, aerospace manufacturers, and precision machining operations",
     "key_differentiators": [
       "Fully custom-engineered systems (not off-the-shelf)",
@@ -1490,7 +1490,7 @@
       "Power Generation",
       "Industrial Construction"
     ],
-    "tone": "Technical and code-focused. Recently very happy with marketing \u2014 just got a job from organic search. Momentum is building. Content should be specific and technically credible.",
+    "tone": "Technical and code-focused. Recently very happy with marketing — just got a job from organic search. Momentum is building. Content should be specific and technically credible.",
     "avoid": [
       "Content that implies they do work outside their core piping capabilities",
       "Watered-down technical content"
@@ -1531,7 +1531,7 @@
       "Automotive",
       "Defense"
     ],
-    "tone": "Straightforward and reliable. No issues \u2014 stable, solid relationship. Keep content grounded and practical.",
+    "tone": "Straightforward and reliable. No issues — stable, solid relationship. Keep content grounded and practical.",
     "avoid": [
       "Generic content",
       "Overcomplicating simple machining narratives"
@@ -1614,7 +1614,7 @@
       "Medical",
       "Aerospace"
     ],
-    "tone": "Professional and consistent. Marketing-only client \u2014 handle with care, didn't love past writer changes. Maintain continuity with Jake's established voice.",
+    "tone": "Professional and consistent. Marketing-only client — handle with care, didn't love past writer changes. Maintain continuity with Jake's established voice.",
     "avoid": [
       "Changes in tone or style that might feel jarring to this client",
       "Generic content"
@@ -1624,7 +1624,7 @@
     "services": [
       "Blog"
     ],
-    "notes": "Marketing only client. Needs extra attention \u2014 didn't love past writer changes.",
+    "notes": "Marketing only client. Needs extra attention — didn't love past writer changes.",
     "website": "https://www.panova.com"
   },
   {
@@ -1779,7 +1779,7 @@
       "Aerospace",
       "Medical"
     ],
-    "tone": "Professional, precise, and credibility-focused. Whitney has owned historically \u2014 maintain established voice.",
+    "tone": "Professional, precise, and credibility-focused. Whitney has owned historically — maintain established voice.",
     "avoid": [
       "Generic machining content",
       "Unsubstantiated quality claims"
@@ -1862,7 +1862,7 @@
       "Construction",
       "Energy"
     ],
-    "tone": "Practical and growth-focused. Launched site and picking up content marketing \u2014 momentum is building. Highlight expanding capabilities and capacity.",
+    "tone": "Practical and growth-focused. Launched site and picking up content marketing — momentum is building. Highlight expanding capabilities and capacity.",
     "avoid": [
       "Generic fabrication content",
       "Overpromising on capacity not yet confirmed"
@@ -1944,7 +1944,7 @@
       "Defense",
       "Automotive"
     ],
-    "tone": "Professional and steady. Note: recently acquired by ISR company \u2014 watch for messaging changes or direction shifts. Maintain Whitney's established voice.",
+    "tone": "Professional and steady. Note: recently acquired by ISR company — watch for messaging changes or direction shifts. Maintain Whitney's established voice.",
     "avoid": [
       "Anything referencing the acquisition until direction is clear",
       "Generic content"
@@ -2027,7 +2027,7 @@
       "Defense",
       "Industrial Equipment"
     ],
-    "tone": "Expert and capability-focused. The word 'specialty' should come through in the content \u2014 this isn't a commodity machining shop.",
+    "tone": "Expert and capability-focused. The word 'specialty' should come through in the content — this isn't a commodity machining shop.",
     "avoid": [
       "Generic machining content that could describe any shop",
       "Capability claims without specifics"
@@ -2153,7 +2153,7 @@
       "Energy",
       "Defense"
     ],
-    "tone": "Direct and capability-focused. Jake has owned historically \u2014 solid relationship. Content should highlight the single-source advantage.",
+    "tone": "Direct and capability-focused. Jake has owned historically — solid relationship. Content should highlight the single-source advantage.",
     "avoid": [
       "Generic machining or fabrication content that ignores the integrated value prop"
     ],
@@ -2234,7 +2234,7 @@
       "Medical",
       "Aerospace"
     ],
-    "tone": "Professional and expertise-focused. Note: sales not coming in as expected despite content marketing and case studies \u2014 content may need to pivot toward more sales-enablement focused pieces.",
+    "tone": "Professional and expertise-focused. Note: sales not coming in as expected despite content marketing and case studies — content may need to pivot toward more sales-enablement focused pieces.",
     "avoid": [
       "Generic machining content",
       "Content that doesn't connect to the sales process"
@@ -2246,7 +2246,7 @@
     "services": [
       "Blog"
     ],
-    "notes": "Content marketing and case studies created. Sales not coming in as expected \u2014 may need sales-enablement pivot.",
+    "notes": "Content marketing and case studies created. Sales not coming in as expected — may need sales-enablement pivot.",
     "website": "https://topcraftprecision.com"
   },
   {
@@ -2279,7 +2279,7 @@
       "Medical",
       "Aerospace"
     ],
-    "tone": "Technical and solution-focused. Whitney has owned historically. Buyers are engineers \u2014 content should speak to material selection and application performance.",
+    "tone": "Technical and solution-focused. Whitney has owned historically. Buyers are engineers — content should speak to material selection and application performance.",
     "avoid": [
       "Generic rubber and plastics content",
       "Oversimplifying material selection"
@@ -2321,7 +2321,7 @@
       "Industrial Equipment",
       "HVAC"
     ],
-    "tone": "Straightforward and reliable. Note: client is not super passionate about marketing \u2014 keep content clean, simple, and low-friction for approvals. Don't overthink it.",
+    "tone": "Straightforward and reliable. Note: client is not super passionate about marketing — keep content clean, simple, and low-friction for approvals. Don't overthink it.",
     "avoid": [
       "Overly creative or elaborate content styles",
       "Long-form content that overextends the client's engagement"
@@ -2428,7 +2428,7 @@
     "what_they_make": "Industrial powder coating services for metal components including standard colors, custom colors, and specialty coatings for steel, aluminum, and other metals.",
     "who_they_sell_to": "Metal fabricators, OEMs, job shops, and manufacturers needing surface finishing on metal components before assembly or shipment",
     "key_differentiators": [
-      "Fast turnaround \u2014 often 2-3 days standard, rush available",
+      "Fast turnaround — often 2-3 days standard, rush available",
       "Large batch capacity for production runs",
       "Color matching and custom color development",
       "Thorough surface prep included (sandblast, iron phosphate)"
@@ -2449,7 +2449,7 @@
       "Outdoor Furniture",
       "Architecture"
     ],
-    "tone": "Straightforward and practical. Great client \u2014 provides photos and real shop content. Lean into real work examples and specifics rather than generic coating copy.",
+    "tone": "Straightforward and practical. Great client — provides photos and real shop content. Lean into real work examples and specifics rather than generic coating copy.",
     "avoid": [
       "Overly technical coating chemistry without buyer context",
       "Generic surface finishing content"
@@ -2503,46 +2503,5 @@
     ],
     "notes": "High tier client.",
     "website": "https://worldclassind.com"
-  },
-  {
-    "id": "world-class-plastics",
-    "name": "World Class Plastics, Inc.",
-    "pm": "Kerrie",
-    "writer": "Jake",
-    "industry": "Custom Injection Molding & Plastic Manufacturing",
-    "what_they_make": "Custom injection molded plastic components and assemblies for OEM customers, with engineering support and in-house tooling capabilities.",
-    "who_they_sell_to": "OEMs and product manufacturers requiring custom injection molded plastics with strong engineering collaboration and domestic lead times",
-    "key_differentiators": [
-      "Engineering support for design for manufacturability",
-      "In-house tooling capability for faster iteration",
-      "Wide range of engineering resins and specialty materials",
-      "World-class quality standards applied to plastic component manufacturing"
-    ],
-    "common_customer_pain_points": [
-      "Long offshore tooling lead times delaying product launches",
-      "Quality failures from overseas injection molding suppliers",
-      "Lack of engineering collaboration in part design"
-    ],
-    "certifications": [
-      "ISO 9001:2015 (inferred)"
-    ],
-    "target_industries": [
-      "Industrial Equipment",
-      "Medical",
-      "Consumer Products",
-      "Electronics"
-    ],
-    "tone": "Technical and quality-focused. Marketing-only client at reduced hours \u2014 keep content efficient and impactful. Whitney has owned historically.",
-    "avoid": [
-      "Generic plastics content",
-      "Overextending into capabilities not confirmed"
-    ],
-    "past_topics": [],
-    "approval_contact": "Primary contact",
-    "services": [
-      "Blog"
-    ],
-    "notes": "Marketing-only client at 20 hours/month.",
-    "website": "https://www.worldclassplastics.com"
   }
 ]
