@@ -5,7 +5,7 @@ import clientsData from "@/data/clients.json";
 import { ContentType, CONTENT_TYPE_LABELS } from "@/lib/prompts";
 
 const CONTENT_TYPES: { value: ContentType; label: string; description: string }[] = [
-  { value: "blog", label: "Blog Post", description: "600–900 word SEO-friendly article" },
+  { value: "blog", label: "Blog Post", description: "1,200–1,500 word SEO-friendly article" },
   { value: "email", label: "Marketing Email", description: "Subject lines + 200–350 word email" },
   { value: "linkedin", label: "LinkedIn Post", description: "150–300 word company or ghostwritten post" },
   { value: "capability-onepager", label: "Capability One-Pager", description: "Sales-ready capability overview" },
@@ -93,10 +93,19 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <header className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div>
-            <h1 className="text-xl font-semibold text-gray-900">demandDrive Content Engine</h1>
-            <p className="text-sm text-gray-500 mt-0.5">AI-assisted drafting for manufacturing clients</p>
+        <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-4">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://manufacturing.demanddrive.com/wp-content/uploads/sites/2/2026/03/demanddrive_manufacturing_logo_dark_svg.svg"
+              alt="demandDrive Manufacturing"
+              className="h-8 w-auto"
+            />
+            <div className="h-6 w-px bg-gray-200" />
+            <div>
+              <p className="text-sm font-semibold text-gray-800 leading-tight">Content Engine</p>
+              <p className="text-xs text-gray-400 leading-tight">AI-assisted drafting</p>
+            </div>
           </div>
           <span className="text-xs bg-blue-50 text-blue-700 font-medium px-2.5 py-1 rounded-full border border-blue-200">
             Manufacturing

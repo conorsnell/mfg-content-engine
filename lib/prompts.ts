@@ -97,8 +97,8 @@ ${clientContext}`;
 CONTENT TYPE: Blog Post
 =======================
 Write a complete, publish-ready blog post. Requirements:
-- Length: 600-900 words
-- Structure: Engaging headline, brief intro that hooks on a pain point, 3-4 substantive sections with clear H2 subheadings, conclusion with soft CTA
+- Length: 1,200-1,500 words
+- Structure: Engaging headline, brief intro that hooks on a pain point, 4-5 substantive sections with clear H2 subheadings, conclusion with soft CTA
 - Tone: Educational and expert, not salesy
 - SEO: Naturally weave in the topic keyword and related terms; don't keyword-stuff
 - CTA: End with a low-friction call to action (contact us, get a quote, learn more about X)
