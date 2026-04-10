@@ -11,6 +11,7 @@ export interface ClientProfile {
   name: string;
   pm: string;
   writer: string;
+  website?: string;
   industry: string;
   what_they_make: string;
   who_they_sell_to: string;
@@ -35,12 +36,17 @@ export const CONTENT_TYPE_LABELS: Record<ContentType, string> = {
   "trade-show-followup": "Trade Show Follow-Up Email",
 };
 
-function buildClientContext(client: ClientProfile): string {
+function buildClientContext(client: ClientProfile, sitePages?: string[]): string {
+  const pagesSection = sitePages && sitePages.length > 0
+    ? `\nClient website pages (for internal linking):\n${sitePages.map((u) => `- ${u}`).join("\n")}`
+    : "";
+
   return `
 CLIENT PROFILE
 ==============
 Company: ${client.name}
-Industry: ${client.industry}
+Website: ${client.website || "Not provided"}
+Industry: ${client.industry}${pagesSection}
 
 What they make:
 ${client.what_they_make}
@@ -76,9 +82,10 @@ ${client.notes}
 
 export function buildSystemPrompt(
   client: ClientProfile,
-  contentType: ContentType
+  contentType: ContentType,
+  sitePages?: string[]
 ): string {
-  const clientContext = buildClientContext(client);
+  const clientContext = buildClientContext(client, sitePages);
 
   const baseSystem = `You are an expert B2B manufacturing content writer for demandDrive, a marketing agency specializing in US-based manufacturing companies. Your job is to write high-quality, revenue-focused content that helps manufacturing SMBs generate leads, build credibility, and support their sales teams.
 
@@ -102,7 +109,17 @@ Write a complete, publish-ready blog post. Requirements:
 - Tone: Educational and expert, not salesy
 - SEO: Naturally weave in the topic keyword and related terms; don't keyword-stuff
 - CTA: End with a low-friction call to action (contact us, get a quote, learn more about X)
+- Internal links: If client website pages are provided in the client profile, naturally weave in 2-4 internal links to relevant pages within the body copy. Use descriptive anchor text — never "click here". Only link where it genuinely adds value for the reader.
 - Output the full post in markdown format, including the headline as H1
+
+At the very top of your response, before the article, output the following block exactly:
+
+---
+META TITLE: [60 characters max, include primary keyword, compelling]
+META DESCRIPTION: [150-160 characters, summarizes the article, includes keyword, has a hook]
+---
+
+Then output the full article below.
 `,
     email: `
 CONTENT TYPE: Marketing Email

@@ -39,7 +39,8 @@
       "Email",
       "LinkedIn"
     ],
-    "notes": "New POC is Savannah. Blog, email, LinkedIn. Solid relationship."
+    "notes": "New POC is Savannah. Blog, email, LinkedIn. Solid relationship.",
+    "website": "https://acmefoundry.com"
   },
   {
     "id": "advantage-sintered-metals",
@@ -80,7 +81,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Recently started content marketing."
+    "notes": "Recently started content marketing.",
+    "website": ""
   },
   {
     "id": "alloy-fabrication",
@@ -120,7 +122,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "automated-systems",
@@ -162,7 +165,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Launched website recently. Keep close eye on sales performance."
+    "notes": "Launched website recently. Keep close eye on sales performance.",
+    "website": ""
   },
   {
     "id": "benchmark-foam",
@@ -202,7 +206,8 @@
       "Blog",
       "Email"
     ],
-    "notes": "Great relationship. Parted with sales team but kept marketing. Contact is Jackie."
+    "notes": "Great relationship. Parted with sales team but kept marketing. Contact is Jackie.",
+    "website": "https://benchmarkfoam.com"
   },
   {
     "id": "blackhawk-engineering",
@@ -242,7 +247,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "broadview-technologies",
@@ -282,7 +288,8 @@
       "Blog",
       "Social Media"
     ],
-    "notes": "Chemical company. Sister company is HyCrete. Doing social media and blogs. Has specific target keywords and seeing SEO progress."
+    "notes": "Chemical company. Sister company is HyCrete. Doing social media and blogs. Has specific target keywords and seeing SEO progress.",
+    "website": "https://broadviewtechnologies.com"
   },
   {
     "id": "century-wire-products",
@@ -321,7 +328,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Focused on only limited logins to website."
+    "notes": "Focused on only limited logins to website.",
+    "website": ""
   },
   {
     "id": "chemtec",
@@ -362,7 +370,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Still in website writing phase."
+    "notes": "Still in website writing phase.",
+    "website": ""
   },
   {
     "id": "cjseto-support-services",
@@ -401,7 +410,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Slow approvals. Serves government and school sectors."
+    "notes": "Slow approvals. Serves government and school sectors.",
+    "website": ""
   },
   {
     "id": "core-pipe-products",
@@ -442,7 +452,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "custom-magnetics",
@@ -484,7 +495,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Renegotiated to cap at 20 hours/month. Slow to respond."
+    "notes": "Renegotiated to cap at 20 hours/month. Slow to respond.",
+    "website": ""
   },
   {
     "id": "detroit-stoker-company",
@@ -525,7 +537,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Turning focus to collateral content. Needs extra attention \u2014 losing CSM too."
+    "notes": "Turning focus to collateral content. Needs extra attention \u2014 losing CSM too.",
+    "website": "https://detroitstoker.com"
   },
   {
     "id": "formco-metal-products",
@@ -566,7 +579,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Reduced to 10 hours/month."
+    "notes": "Reduced to 10 hours/month.",
+    "website": ""
   },
   {
     "id": "formed-plastics",
@@ -606,7 +620,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "ga-richards-group",
@@ -643,7 +658,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "gdca",
@@ -684,7 +700,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Very particular client. Whitney has a good handle on their preferences."
+    "notes": "Very particular client. Whitney has a good handle on their preferences.",
+    "website": ""
   },
   {
     "id": "glen-magnetics",
@@ -725,7 +742,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Not started yet."
+    "notes": "Not started yet.",
+    "website": ""
   },
   {
     "id": "heiq-chemtex",
@@ -767,7 +785,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Content marketing to begin once website goes live."
+    "notes": "Content marketing to begin once website goes live.",
+    "website": ""
   },
   {
     "id": "hy-tech-spring",
@@ -808,7 +827,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Good spot. Stable relationship."
+    "notes": "Good spot. Stable relationship.",
+    "website": ""
   },
   {
     "id": "hycrete-broadview",
@@ -849,7 +869,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Division of Broadview Technologies."
+    "notes": "Division of Broadview Technologies.",
+    "website": "https://hycrete.com"
   },
   {
     "id": "jonti-craft",
@@ -892,7 +913,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Not started yet."
+    "notes": "Not started yet.",
+    "website": "https://jonti-craft.com"
   },
   {
     "id": "kay-industries",
@@ -933,7 +955,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "knight-carbide",
@@ -974,7 +997,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Not super needy. Tough to get feedback or imagery."
+    "notes": "Not super needy. Tough to get feedback or imagery.",
+    "website": ""
   },
   {
     "id": "kuroda-jena-tec",
@@ -1015,7 +1039,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Publishes blogs on their own site."
+    "notes": "Publishes blogs on their own site.",
+    "website": ""
   },
   {
     "id": "liberty-molds",
@@ -1055,7 +1080,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "10 hours of marketing support per month. Biweekly cadence."
+    "notes": "10 hours of marketing support per month. Biweekly cadence.",
+    "website": ""
   },
   {
     "id": "linfor",
@@ -1092,7 +1118,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Profile details to be confirmed with client team."
+    "notes": "Profile details to be confirmed with client team.",
+    "website": ""
   },
   {
     "id": "lobepro-rotary-pumps",
@@ -1135,7 +1162,8 @@
       "Email",
       "LinkedIn"
     ],
-    "notes": "Great content historically. Slow on email approvals. Parts sales have dropped off."
+    "notes": "Great content historically. Slow on email approvals. Parts sales have dropped off.",
+    "website": "https://lobepro.com"
   },
   {
     "id": "maca-casting-machine",
@@ -1175,7 +1203,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "High tier client. Reads blogs aloud on calls. Did website updates and GMB listing updates."
+    "notes": "High tier client. Reads blogs aloud on calls. Did website updates and GMB listing updates.",
+    "website": ""
   },
   {
     "id": "mae-eitel",
@@ -1215,7 +1244,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "maxwell-lighting",
@@ -1259,7 +1289,8 @@
       "Email",
       "Social Media"
     ],
-    "notes": "One of oldest clients. Very happy with marketing. Becky wants to add case studies."
+    "notes": "One of oldest clients. Very happy with marketing. Becky wants to add case studies.",
+    "website": "https://maxwelllighting.com"
   },
   {
     "id": "mectron-inspection-engineering",
@@ -1300,7 +1331,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Great 2-year relationship. Slow to approve. Machines sell for ~$1.5M. Long sales cycle. Tariffs hitting hard right now."
+    "notes": "Great 2-year relationship. Slow to approve. Machines sell for ~$1.5M. Long sales cycle. Tariffs hitting hard right now.",
+    "website": "https://mectron.com"
   },
   {
     "id": "medfab-precision-solutions",
@@ -1343,7 +1375,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Reduced to 10-20 hours/month with 15 as the sweet spot."
+    "notes": "Reduced to 10-20 hours/month with 15 as the sweet spot.",
+    "website": ""
   },
   {
     "id": "microtool-company",
@@ -1383,7 +1416,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "miyama-usa",
@@ -1423,7 +1457,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": "https://miyamausa.com"
   },
   {
     "id": "mw-piping-fabrication",
@@ -1465,7 +1500,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Built site in 2025. Very happy. Just got a job from organic search. Now fully on board with content."
+    "notes": "Built site in 2025. Very happy. Just got a job from organic search. Now fully on board with content.",
+    "website": "https://mwpiping.com"
   },
   {
     "id": "pf-machining",
@@ -1505,7 +1541,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "No issues. Stable."
+    "notes": "No issues. Stable.",
+    "website": ""
   },
   {
     "id": "pacific-plastic-technology",
@@ -1546,7 +1583,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "panova",
@@ -1586,7 +1624,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Marketing only client. Needs extra attention \u2014 didn't love past writer changes."
+    "notes": "Marketing only client. Needs extra attention \u2014 didn't love past writer changes.",
+    "website": ""
   },
   {
     "id": "protective-coatings",
@@ -1627,7 +1666,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "ram-decorative-metal",
@@ -1667,7 +1707,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "regal-metal-products",
@@ -1707,7 +1748,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "reid",
@@ -1747,7 +1789,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "rg-precision",
@@ -1787,7 +1830,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Not started yet."
+    "notes": "Not started yet.",
+    "website": ""
   },
   {
     "id": "sw-metal-products",
@@ -1828,7 +1872,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Launched site, working on second site, picking up content marketing now."
+    "notes": "Launched site, working on second site, picking up content marketing now.",
+    "website": ""
   },
   {
     "id": "scherer",
@@ -1868,7 +1913,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "si-manufacturing",
@@ -1908,7 +1954,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Recently acquired by an ISR company. Watch closely."
+    "notes": "Recently acquired by an ISR company. Watch closely.",
+    "website": ""
   },
   {
     "id": "silvex",
@@ -1949,7 +1996,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Launched site a few months ago. Another agency also writing blogs, alternating posts."
+    "notes": "Launched site a few months ago. Another agency also writing blogs, alternating posts.",
+    "website": ""
   },
   {
     "id": "specialty-machine",
@@ -1989,7 +2037,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Not started yet. Currently working with Enterprise Marketing team."
+    "notes": "Not started yet. Currently working with Enterprise Marketing team.",
+    "website": ""
   },
   {
     "id": "stein-seal",
@@ -2032,7 +2081,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "High stakes, high tier client. Was unhappy about losing previous writer Chris. Autumn must build trust quickly."
+    "notes": "High stakes, high tier client. Was unhappy about losing previous writer Chris. Autumn must build trust quickly.",
+    "website": "https://steinseal.com"
   },
   {
     "id": "stone-city-products",
@@ -2071,7 +2121,8 @@
       "Blog",
       "LinkedIn"
     ],
-    "notes": "Outside SEO agency also involved. Both demandDrive and consultant producing content. LinkedIn campaign running."
+    "notes": "Outside SEO agency also involved. Both demandDrive and consultant producing content. LinkedIn campaign running.",
+    "website": "https://stonecityproducts.com"
   },
   {
     "id": "superior-machining-fabrication",
@@ -2111,7 +2162,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "the-lindgren-group",
@@ -2151,7 +2203,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "High tier client. Joining meeting in January."
+    "notes": "High tier client. Joining meeting in January.",
+    "website": ""
   },
   {
     "id": "topcraft-precision",
@@ -2193,7 +2246,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Content marketing and case studies created. Sales not coming in as expected \u2014 may need sales-enablement pivot."
+    "notes": "Content marketing and case studies created. Sales not coming in as expected \u2014 may need sales-enablement pivot.",
+    "website": ""
   },
   {
     "id": "triangle-rubber-plastics",
@@ -2235,7 +2289,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "tryson-metal-stampings",
@@ -2276,7 +2331,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Not super passionate about marketing. Keep it simple and easy to approve."
+    "notes": "Not super passionate about marketing. Keep it simple and easy to approve.",
+    "website": ""
   },
   {
     "id": "vidon-plastics",
@@ -2316,7 +2372,8 @@
     "services": [
       "Blog"
     ],
-    "notes": ""
+    "notes": "",
+    "website": ""
   },
   {
     "id": "winbco-tank-company",
@@ -2359,7 +2416,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Good relationship. Good about approvals. Niche market within ~1000 mile radius. Opportunity for PPC."
+    "notes": "Good relationship. Good about approvals. Niche market within ~1000 mile radius. Opportunity for PPC.",
+    "website": "https://winbco.com"
   },
   {
     "id": "winona-powder-coating",
@@ -2401,7 +2459,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Really good about providing photos and feedback. Great client for showcasing real work."
+    "notes": "Really good about providing photos and feedback. Great client for showcasing real work.",
+    "website": "https://winonapowdercoating.com"
   },
   {
     "id": "world-class-industries",
@@ -2442,7 +2501,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "High tier client."
+    "notes": "High tier client.",
+    "website": ""
   },
   {
     "id": "world-class-plastics",
@@ -2482,7 +2542,8 @@
     "services": [
       "Blog"
     ],
-    "notes": "Marketing-only client at 20 hours/month."
+    "notes": "Marketing-only client at 20 hours/month.",
+    "website": ""
   },
   {
     "id": "template-client",
@@ -2515,6 +2576,7 @@
     "services": [
       "Blog"
     ],
-    "notes": "Any other relevant context for the writer or AI"
+    "notes": "Any other relevant context for the writer or AI",
+    "website": ""
   }
 ]

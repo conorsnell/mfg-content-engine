@@ -156,6 +156,21 @@ export default function Home() {
                     <span>PM: <span className="text-gray-700 font-medium">{selectedClient.pm}</span></span>
                     <span>Writer: <span className="text-gray-700 font-medium">{selectedClient.writer}</span></span>
                   </div>
+                  {selectedClient.website ? (
+                    <a
+                      href={selectedClient.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-xs text-blue-600 hover:text-blue-800 mt-1"
+                    >
+                      <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                      </svg>
+                      {selectedClient.website.replace(/^https?:\/\//, '')}
+                    </a>
+                  ) : (
+                    <p className="text-xs text-amber-600 mt-1 italic">No website on file — add to clients.json for internal linking</p>
+                  )}
                 </div>
               )}
             </div>
