@@ -5,139 +5,2361 @@
     "pm": "Anthony",
     "writer": "Jake",
     "industry": "Metal Casting & Foundry",
-    "what_they_make": "Gray iron, ductile iron, and aluminum castings for automotive, industrial, and agricultural applications",
-    "who_they_sell_to": "OEMs in automotive and heavy equipment industries, tier-1 and tier-2 suppliers, industrial manufacturers",
+    "what_they_make": "Gray iron, ductile iron, and aluminum castings for automotive, industrial, and agricultural applications, including complex geometries and tight-tolerance cast components.",
+    "who_they_sell_to": "OEMs in automotive and heavy equipment industries, tier-1 and tier-2 suppliers, industrial manufacturers requiring cast metal components",
     "key_differentiators": [
-      "Tight tolerances on complex geometries",
-      "In-house pattern making and tooling",
+      "In-house pattern making and tooling capabilities",
       "PPAP and APQP capabilities for automotive compliance",
-      "Domestic US manufacturer with fast lead times vs. overseas"
+      "Domestic US manufacturer with shorter lead times vs. overseas foundries",
+      "Ability to handle complex casting geometries"
     ],
     "common_customer_pain_points": [
-      "Overseas supplier quality issues and long lead times",
-      "Need for engineering support during design phase",
+      "Overseas supplier quality issues and unpredictable lead times",
+      "Need for engineering support during design-for-castability phase",
       "Regulatory and compliance traceability requirements"
     ],
-    "certifications": ["ISO 9001:2015", "IATF 16949"],
-    "target_industries": ["Automotive", "Agriculture", "Industrial Equipment", "Hydraulics"],
-    "tone": "Professional, straightforward, technically credible. Client is direct and no-nonsense.",
-    "avoid": ["Overly salesy language", "Vague claims without specifics"],
-    "past_topics": ["Gray iron vs. ductile iron", "How to specify a casting order", "PPAP process overview"],
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "target_industries": [
+      "Automotive",
+      "Agriculture",
+      "Industrial Equipment",
+      "Hydraulics"
+    ],
+    "tone": "Professional, straightforward, technically credible. No-nonsense audience. Content should be specific and avoid marketing fluff.",
+    "avoid": [
+      "Overly salesy language",
+      "Vague claims without specifics"
+    ],
+    "past_topics": [],
     "approval_contact": "Savannah",
-    "services": ["Blog", "Email", "LinkedIn"],
-    "notes": "New POC is Savannah. Solid relationship. Responds well to technical content."
+    "services": [
+      "Blog",
+      "Email",
+      "LinkedIn"
+    ],
+    "notes": "New POC is Savannah. Blog, email, LinkedIn. Solid relationship."
+  },
+  {
+    "id": "advantage-sintered-metals",
+    "name": "Advantage Sintered Metals, Inc.",
+    "pm": "Alison",
+    "writer": "Jake",
+    "industry": "Powder Metal / Sintered Metal Components",
+    "what_they_make": "Precision sintered metal components manufactured via powder metallurgy, including gears, bushings, bearings, and structural parts for high-volume applications.",
+    "who_they_sell_to": "OEMs in automotive, appliance, power tool, and industrial equipment sectors requiring high-volume precision metal parts",
+    "key_differentiators": [
+      "Near-net-shape manufacturing reduces secondary machining costs",
+      "High-volume production capability with consistent tolerances",
+      "Wide material selection including iron, steel, copper, and brass alloys",
+      "Cost-effective alternative to machined or cast components"
+    ],
+    "common_customer_pain_points": [
+      "High per-part cost from traditional machining on high-volume components",
+      "Inconsistent quality from offshore suppliers",
+      "Long lead times for tooling and production ramp-up"
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "IATF 16949 (inferred)"
+    ],
+    "target_industries": [
+      "Automotive",
+      "Appliance",
+      "Power Tools",
+      "Industrial Equipment"
+    ],
+    "tone": "Technical and educational. Buyers are engineers and procurement professionals who understand manufacturing. Lean into the cost and performance advantages of powder metal vs. alternatives.",
+    "avoid": [
+      "Oversimplifying the powder metal process",
+      "Generic manufacturing content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Recently started content marketing."
+  },
+  {
+    "id": "alloy-fabrication",
+    "name": "Alloy Fabrication Inc.",
+    "pm": "Kerrie",
+    "writer": "Jake",
+    "industry": "Custom Metal Fabrication",
+    "what_they_make": "Custom fabricated metal assemblies and structural components including cutting, forming, welding, and finishing for industrial and OEM customers.",
+    "who_they_sell_to": "OEMs, industrial equipment manufacturers, and commercial construction contractors requiring custom fabricated metal parts and assemblies",
+    "key_differentiators": [
+      "Full-service fabrication from design to delivery",
+      "In-house welding, cutting, and forming capabilities",
+      "Experienced with a wide range of alloys and metals",
+      "Responsive quoting and fast turnaround"
+    ],
+    "common_customer_pain_points": [
+      "Long lead times from larger fabrication shops",
+      "Poor communication during production",
+      "Finding a shop with in-house capability across the full fabrication process"
+    ],
+    "certifications": [
+      "AWS D1.1 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Construction",
+      "Agriculture",
+      "Energy"
+    ],
+    "tone": "Practical and direct. Buyers are engineers and procurement managers. Content should focus on capability, reliability, and getting the job done right.",
+    "avoid": [
+      "Overly technical metallurgy content that loses the buyer",
+      "Vague quality claims"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "automated-systems",
+    "name": "Automated Systems, Inc.",
+    "pm": "Anthony",
+    "writer": "Ryann",
+    "industry": "Industrial Automation & Custom Machinery",
+    "what_they_make": "Custom automated machinery, assembly systems, and industrial automation solutions for manufacturers looking to improve throughput and reduce labor costs.",
+    "who_they_sell_to": "Manufacturing operations managers, plant engineers, and executives at mid-size manufacturers looking to automate repetitive or labor-intensive processes",
+    "key_differentiators": [
+      "Fully custom-engineered automation solutions",
+      "In-house design, fabrication, and programming",
+      "Experience across a range of manufacturing industries",
+      "Ongoing support and maintenance after installation"
+    ],
+    "common_customer_pain_points": [
+      "Rising labor costs and difficulty finding skilled assembly workers",
+      "Inconsistent quality from manual assembly processes",
+      "Long ROI timelines from off-the-shelf automation that doesn't fit their process"
+    ],
+    "certifications": [
+      "UL Listed (inferred)",
+      "CE Mark (inferred)"
+    ],
+    "target_industries": [
+      "Food & Beverage",
+      "Automotive",
+      "Consumer Goods",
+      "Medical Devices",
+      "Electronics"
+    ],
+    "tone": "Professional and consultative. Buyers are engineers and operations leaders making capital investment decisions. Content should build trust and demonstrate expertise.",
+    "avoid": [
+      "Oversimplifying automation ROI calculations",
+      "Generic automation content that doesn't differentiate"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Launched website recently. Keep close eye on sales performance."
   },
   {
     "id": "benchmark-foam",
     "name": "Benchmark Foam, Inc.",
     "pm": "Anthony",
     "writer": "Ryann",
-    "industry": "Custom Foam Manufacturing",
-    "what_they_make": "Custom-cut expanded polystyrene (EPS) foam products for packaging, construction insulation, and cold chain applications",
-    "who_they_sell_to": "Product manufacturers needing custom protective packaging, contractors and builders, food and pharmaceutical cold chain companies",
+    "industry": "Custom Foam Manufacturing (EPS)",
+    "what_they_make": "Custom-cut expanded polystyrene (EPS) foam products for protective packaging, construction insulation, and cold chain shipping applications.",
+    "who_they_sell_to": "Product manufacturers needing custom protective packaging, contractors and builders for insulation, and food/pharmaceutical companies for cold chain shipping",
     "key_differentiators": [
-      "Precision CNC foam cutting for complex shapes",
+      "Precision CNC foam cutting for complex custom shapes",
       "Fast turnaround on custom orders",
-      "Sustainable EPS recycling program",
+      "EPS recycling program for sustainability-conscious customers",
       "Design engineering support for packaging optimization"
     ],
     "common_customer_pain_points": [
-      "Product damage during shipping",
-      "Expensive custom packaging from large suppliers",
-      "Long lead times from overseas foam suppliers"
+      "Product damage during shipping from inadequate packaging",
+      "High cost of custom packaging from large national suppliers",
+      "Long lead times from offshore foam suppliers"
     ],
     "certifications": [],
-    "target_industries": ["Packaging", "Construction", "Food & Beverage", "Pharmaceutical", "Electronics"],
-    "tone": "Friendly and approachable, but technically credible. Jackie is the contact - has a good relationship with the team.",
-    "avoid": ["Overly technical jargon", "References to competitors by name"],
-    "past_topics": ["EPS foam vs. alternatives for protective packaging", "Cold chain packaging best practices", "Sustainability of EPS"],
+    "target_industries": [
+      "Packaging",
+      "Construction",
+      "Food & Beverage",
+      "Pharmaceutical",
+      "Electronics"
+    ],
+    "tone": "Friendly and approachable but technically credible. Contact is Jackie \u2014 established relationship. Content can be practical and educational without heavy jargon.",
+    "avoid": [
+      "Complex chemistry or manufacturing jargon",
+      "References to competitors by name"
+    ],
+    "past_topics": [],
     "approval_contact": "Jackie",
-    "services": ["Blog", "Email"],
-    "notes": "Great relationship. Parted with sales team but kept marketing. Easy to work with."
+    "services": [
+      "Blog",
+      "Email"
+    ],
+    "notes": "Great relationship. Parted with sales team but kept marketing. Contact is Jackie."
+  },
+  {
+    "id": "blackhawk-engineering",
+    "name": "Blackhawk Engineering",
+    "pm": "Ryan",
+    "writer": "Ryann",
+    "industry": "Contract Engineering & Custom Machinery",
+    "what_they_make": "Custom engineered solutions including machine design, automation systems, and contract engineering services for industrial manufacturers.",
+    "who_they_sell_to": "Manufacturing companies and industrial operations needing engineering expertise, machine design, or custom automation without a full in-house engineering team",
+    "key_differentiators": [
+      "Deep mechanical and electrical engineering expertise",
+      "Custom machine design and build capability",
+      "Flexible engagement models from consulting to full project management",
+      "Experience across multiple manufacturing industries"
+    ],
+    "common_customer_pain_points": [
+      "Gap in internal engineering capacity for special projects",
+      "Off-the-shelf solutions that don't fit their specific process",
+      "Lack of single-source accountability from design through commissioning"
+    ],
+    "certifications": [
+      "PE Licensed Engineers (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Manufacturing",
+      "Automotive",
+      "Food & Beverage",
+      "Energy"
+    ],
+    "tone": "Technical and credible. Audience is engineers and plant managers. Content should demonstrate problem-solving expertise and engineering depth.",
+    "avoid": [
+      "Watered-down technical content",
+      "Generic engineering platitudes"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "broadview-technologies",
+    "name": "Broadview Technologies, Inc.",
+    "pm": "Becky",
+    "writer": "Ryann",
+    "industry": "Specialty Chemical Manufacturing",
+    "what_they_make": "Specialty chemical products and additives for construction, industrial, and consumer applications. Parent company to HyCrete (concrete waterproofing additive).",
+    "who_they_sell_to": "Construction contractors, building product distributors, and industrial manufacturers requiring specialty chemical additives and performance materials",
+    "key_differentiators": [
+      "Proprietary formulations for niche applications",
+      "Technical application expertise and customer support",
+      "Track record of product performance in demanding conditions",
+      "Ability to customize formulations for specific customer needs"
+    ],
+    "common_customer_pain_points": [
+      "Inconsistent product performance from commodity chemical suppliers",
+      "Lack of technical support for application-specific problems",
+      "Difficulty sourcing specialty materials at commercial scale"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Construction",
+      "Industrial Manufacturing",
+      "Building Products"
+    ],
+    "tone": "Technical but accessible. Buyers range from engineers to contractors. Content should balance technical credibility with practical application guidance.",
+    "avoid": [
+      "Overly academic chemistry content",
+      "Claims that can't be backed by data"
+    ],
+    "past_topics": [],
+    "approval_contact": "Jason",
+    "services": [
+      "Blog",
+      "Social Media"
+    ],
+    "notes": "Chemical company. Sister company is HyCrete. Doing social media and blogs. Has specific target keywords and seeing SEO progress."
+  },
+  {
+    "id": "century-wire-products",
+    "name": "Century Wire Products",
+    "pm": "Alison",
+    "writer": "Jake",
+    "industry": "Custom Wire Forming & Wire Products",
+    "what_they_make": "Custom-formed wire products, wire baskets, guards, and assemblies manufactured to customer specifications for industrial, commercial, and retail applications.",
+    "who_they_sell_to": "OEMs, distributors, and industrial buyers requiring custom wire-formed components and assemblies",
+    "key_differentiators": [
+      "Precision wire forming to customer specifications",
+      "Wide range of wire gauges and materials",
+      "Short lead times on custom tooling and production",
+      "Domestic manufacturer with responsive engineering support"
+    ],
+    "common_customer_pain_points": [
+      "Long tooling lead times from larger wire product companies",
+      "Minimum order quantity requirements that don't fit their volume",
+      "Difficulty sourcing custom wire configurations domestically"
+    ],
+    "certifications": [],
+    "target_industries": [
+      "Industrial Equipment",
+      "Retail Display",
+      "Food Service",
+      "HVAC",
+      "Automotive"
+    ],
+    "tone": "Straightforward and practical. Buyers are procurement managers and product engineers. Focus on flexibility and responsiveness.",
+    "avoid": [
+      "Overcomplicating wire forming content",
+      "Generic manufacturing claims"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Focused on only limited logins to website."
+  },
+  {
+    "id": "chemtec",
+    "name": "ChemTec",
+    "pm": "Ryan",
+    "writer": "Ryann",
+    "industry": "Specialty Chemical Manufacturing & Distribution",
+    "what_they_make": "Specialty chemicals, lubricants, and chemical compounds for industrial manufacturing applications including metalworking, maintenance, and process chemicals.",
+    "who_they_sell_to": "Manufacturing plant managers, maintenance managers, and purchasing professionals at industrial facilities requiring specialty chemical products",
+    "key_differentiators": [
+      "Application-specific chemical expertise",
+      "Technical support and on-site consultation",
+      "Ability to source and formulate specialty compounds",
+      "Fast delivery and responsive customer service"
+    ],
+    "common_customer_pain_points": [
+      "Inconsistent performance from commodity chemical products",
+      "Lack of technical expertise from large distributors",
+      "Difficulty finding specialty compounds for specific applications"
+    ],
+    "certifications": [
+      "SDS Compliant",
+      "EPA Registered (inferred)"
+    ],
+    "target_industries": [
+      "Metal Fabrication",
+      "CNC Machining",
+      "Automotive",
+      "Industrial Maintenance"
+    ],
+    "tone": "Technical and solution-focused. Buyers are hands-on plant and maintenance professionals. Content should be practical and performance-oriented.",
+    "avoid": [
+      "Overly technical chemistry without application context",
+      "Vague environmental claims"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Still in website writing phase."
+  },
+  {
+    "id": "cjseto-support-services",
+    "name": "CJSeto Support Services, LLC",
+    "pm": "Anthony",
+    "writer": "Ryann",
+    "industry": "Government & Institutional Support Services / Manufacturing Support",
+    "what_they_make": "Support services and products for government and educational institutions, potentially including manufactured goods or systems for public sector clients.",
+    "who_they_sell_to": "Government agencies, school districts, and public sector procurement officers",
+    "key_differentiators": [
+      "Experience navigating government procurement processes",
+      "Understanding of compliance and documentation requirements",
+      "Reliable delivery to institutional clients",
+      "Responsive account management"
+    ],
+    "common_customer_pain_points": [
+      "Vendors who don't understand government procurement timelines",
+      "Compliance and documentation requirements not met by standard vendors",
+      "Difficulty getting timely responses from larger suppliers"
+    ],
+    "certifications": [
+      "Government Contractor Certifications (inferred)"
+    ],
+    "target_industries": [
+      "Government",
+      "Education",
+      "Public Sector"
+    ],
+    "tone": "Professional and process-oriented. Buyers are institutional procurement professionals. Content should emphasize reliability, compliance, and accountability.",
+    "avoid": [
+      "Aggressive sales language",
+      "Complexity that doesn't serve the buyer"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Slow approvals. Serves government and school sectors."
+  },
+  {
+    "id": "core-pipe-products",
+    "name": "Core Pipe Products, Inc.",
+    "pm": "Ryan",
+    "writer": "Ryann",
+    "industry": "Pipe Manufacturing & Distribution",
+    "what_they_make": "Manufactured pipe products and pipe system components for industrial, municipal, and commercial applications including specialty pipe configurations.",
+    "who_they_sell_to": "Mechanical contractors, municipal utilities, industrial plant operators, and distributors requiring pipe products and specialty configurations",
+    "key_differentiators": [
+      "Specialty pipe configurations not available from standard distributors",
+      "Domestic manufacturing with shorter lead times",
+      "Technical expertise in pipe specifications and applications",
+      "Reliable inventory and delivery performance"
+    ],
+    "common_customer_pain_points": [
+      "Long lead times for specialty pipe configurations from overseas suppliers",
+      "Difficulty sourcing non-standard sizes and materials",
+      "Quality and traceability documentation requirements"
+    ],
+    "certifications": [
+      "ASTM Compliant (inferred)",
+      "NSF Certified (inferred for municipal)"
+    ],
+    "target_industries": [
+      "Municipal Water & Wastewater",
+      "Oil & Gas",
+      "Industrial Processing",
+      "Construction"
+    ],
+    "tone": "Technical and direct. Buyers are engineers and procurement professionals. Content should focus on product performance and reliability.",
+    "avoid": [
+      "Generic pipe content",
+      "Overly complex technical specs that lose the buyer"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "custom-magnetics",
+    "name": "Custom Magnetics, Inc.",
+    "pm": "Becky",
+    "writer": "Ryann",
+    "industry": "Custom Magnet Manufacturing",
+    "what_they_make": "Custom permanent magnets, magnetic assemblies, and magnetic components manufactured to customer specifications for industrial, medical, and commercial applications.",
+    "who_they_sell_to": "Engineers and procurement managers at OEMs requiring custom magnetic solutions for motors, sensors, medical devices, and industrial equipment",
+    "key_differentiators": [
+      "Custom magnet design and engineering support",
+      "Wide range of magnetic materials including rare earth, ceramic, and AlNiCo",
+      "Precision manufacturing to tight dimensional tolerances",
+      "Low minimum order quantities for prototypes and specialty runs"
+    ],
+    "common_customer_pain_points": [
+      "Minimum order quantities at large magnet manufacturers that exceed their needs",
+      "Long lead times from overseas magnet suppliers",
+      "Difficulty finding a domestic source with engineering support"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)",
+      "RoHS Compliant (inferred)"
+    ],
+    "target_industries": [
+      "Medical Devices",
+      "Industrial Motors",
+      "Sensors & Instrumentation",
+      "Consumer Electronics",
+      "Automotive"
+    ],
+    "tone": "Technical and precise. Buyers are engineers making application-critical decisions. Content should demonstrate material expertise and application knowledge.",
+    "avoid": [
+      "Oversimplifying magnetic properties",
+      "Generic manufacturing content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Renegotiated to cap at 20 hours/month. Slow to respond."
+  },
+  {
+    "id": "detroit-stoker-company",
+    "name": "Detroit Stoker Company",
+    "pm": "Kerrie",
+    "writer": "Ryann",
+    "industry": "Industrial Combustion Systems / Biomass & Waste-to-Energy",
+    "what_they_make": "Industrial stoker combustion systems for biomass, municipal solid waste, and industrial fuel burning applications, including system design, manufacturing, and aftermarket support.",
+    "who_they_sell_to": "Plant engineers, operations managers, and executives at power generation facilities, waste-to-energy plants, pulp and paper mills, and industrial facilities using solid fuel combustion",
+    "key_differentiators": [
+      "100+ year history and deep combustion engineering expertise",
+      "Custom-engineered stoker systems for diverse fuel types",
+      "Comprehensive aftermarket parts and service support",
+      "Experience with complex regulatory and emissions compliance"
+    ],
+    "common_customer_pain_points": [
+      "Aging combustion systems with declining efficiency and reliability",
+      "Difficulty sourcing aftermarket parts for legacy stoker systems",
+      "Emissions compliance pressure from tightening environmental regulations"
+    ],
+    "certifications": [
+      "ASME Certified (inferred)",
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Waste-to-Energy",
+      "Biomass Power",
+      "Pulp & Paper",
+      "Industrial Power Generation"
+    ],
+    "tone": "Authoritative and technically deep. Buyers are experienced engineers at large industrial facilities. Content should reflect the company's long history and deep domain expertise.",
+    "avoid": [
+      "Oversimplifying complex combustion engineering",
+      "Generic energy content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Turning focus to collateral content. Needs extra attention \u2014 losing CSM too."
+  },
+  {
+    "id": "formco-metal-products",
+    "name": "Formco Metal Products, Inc.",
+    "pm": "Kerrie",
+    "writer": "Ryann",
+    "industry": "Custom Metal Stamping & Forming",
+    "what_they_make": "Custom stamped and formed metal components including brackets, clips, housings, and precision stampings for OEM customers across multiple industries.",
+    "who_they_sell_to": "OEMs and manufacturers requiring custom stamped metal components for assemblies, products, and equipment",
+    "key_differentiators": [
+      "In-house tooling design and fabrication",
+      "High-volume production capability with consistent quality",
+      "Multiple material and finish options",
+      "Engineering support from prototype to production"
+    ],
+    "common_customer_pain_points": [
+      "Inconsistent part quality from offshore stamping suppliers",
+      "Long tooling lead times delaying product launches",
+      "Difficulty getting engineering support during the design phase"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)",
+      "IATF 16949 (inferred for automotive)"
+    ],
+    "target_industries": [
+      "Automotive",
+      "Electronics",
+      "Industrial Equipment",
+      "HVAC"
+    ],
+    "tone": "Direct and capability-focused. Buyers are engineers and procurement managers. Content should be specific about capabilities and processes.",
+    "avoid": [
+      "Vague quality claims",
+      "Generic stamping content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Reduced to 10 hours/month."
+  },
+  {
+    "id": "formed-plastics",
+    "name": "Formed Plastics, Inc.",
+    "pm": "Anthony",
+    "writer": "Ryann",
+    "industry": "Custom Thermoforming & Plastic Fabrication",
+    "what_they_make": "Custom thermoformed plastic components, covers, trays, and assemblies for OEM customers, as well as custom plastic fabrication from sheet stock.",
+    "who_they_sell_to": "OEMs and product manufacturers requiring custom plastic enclosures, trays, or covers for equipment and consumer products",
+    "key_differentiators": [
+      "Lower tooling cost than injection molding for medium volumes",
+      "Fast tooling lead times for prototype and production",
+      "Wide material and thickness range",
+      "In-house trimming, assembly, and finishing"
+    ],
+    "common_customer_pain_points": [
+      "High injection molding tooling costs for medium-volume custom parts",
+      "Difficulty finding domestic thermoforming suppliers for specialty shapes",
+      "Long lead times from large national plastics companies"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Medical",
+      "Agriculture",
+      "Consumer Products"
+    ],
+    "tone": "Practical and solution-oriented. Buyers are product designers and procurement managers. Content should focus on the cost and speed advantages of thermoforming.",
+    "avoid": [
+      "Overselling thermoforming for applications that need injection molding",
+      "Generic plastics content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ga-richards-group",
+    "name": "G.A. Richards Group",
+    "pm": "Kerrie",
+    "writer": "Ryann",
+    "industry": "Industrial Distribution & Manufacturing Services",
+    "what_they_make": "Industrial products, components, and manufacturing support services for industrial and commercial customers, including distribution of industrial supplies and custom manufactured solutions.",
+    "who_they_sell_to": "Maintenance managers, plant engineers, and procurement professionals at industrial facilities and manufacturers",
+    "key_differentiators": [
+      "Broad product and service capability under one roof",
+      "Deep relationships with industrial customers",
+      "Technical expertise across multiple product categories",
+      "Responsive customer service and fast delivery"
+    ],
+    "common_customer_pain_points": [
+      "Too many vendors to manage for industrial supply needs",
+      "Difficulty finding technical expertise from large distributors",
+      "Slow response and poor service from national distributors"
+    ],
+    "certifications": [],
+    "target_industries": [
+      "Industrial Manufacturing",
+      "Maintenance & Repair",
+      "Commercial Facilities"
+    ],
+    "tone": "Practical and relationship-focused. Buyers are operations and maintenance professionals. Content should highlight problem-solving capability and breadth of support.",
+    "avoid": [
+      "Overly corporate language",
+      "Generic distribution content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gdca",
+    "name": "GDCA",
+    "pm": "Kerrie",
+    "writer": "Ryann",
+    "industry": "Custom Manufacturing / Defense & Government Contractor (inferred)",
+    "what_they_make": "Custom manufactured components and assemblies, likely serving defense, government, or specialized industrial markets based on the company profile.",
+    "who_they_sell_to": "Government agencies, defense contractors, or specialized industrial buyers",
+    "key_differentiators": [
+      "Precision manufacturing capability",
+      "Compliance with government and defense quality requirements",
+      "Reliable domestic supply chain",
+      "Engineering and technical support"
+    ],
+    "common_customer_pain_points": [
+      "Finding compliant domestic suppliers for government or defense programs",
+      "Quality and documentation requirements beyond standard commercial specs",
+      "Supply chain reliability for critical applications"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)",
+      "ITAR Registered (inferred)"
+    ],
+    "target_industries": [
+      "Defense",
+      "Government",
+      "Aerospace",
+      "Industrial"
+    ],
+    "tone": "Professional and precise. Whitney has a good handle on their preferences \u2014 follow her lead. Client is very particular. Keep content polished and accurate.",
+    "avoid": [
+      "Anything generic or imprecise",
+      "Content that oversimplifies their capabilities"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Very particular client. Whitney has a good handle on their preferences."
+  },
+  {
+    "id": "glen-magnetics",
+    "name": "Glen Magnetics, Inc.",
+    "pm": "TBD",
+    "writer": "TBD",
+    "industry": "Custom Magnet Manufacturing",
+    "what_they_make": "Custom permanent magnets and magnetic assemblies for industrial, commercial, and OEM applications, including rare earth, ceramic, and AlNiCo magnets.",
+    "who_they_sell_to": "Engineers and procurement managers at OEMs requiring custom magnetic components for motors, sensors, holding applications, and specialty equipment",
+    "key_differentiators": [
+      "Custom magnet design and engineering support",
+      "Wide material selection and magnetization options",
+      "Domestic manufacturer with faster lead times than offshore",
+      "Technical application support for magnet selection"
+    ],
+    "common_customer_pain_points": [
+      "Dependence on offshore magnet suppliers with long lead times and quality variability",
+      "Difficulty getting engineering support for custom magnetic assemblies",
+      "Minimum order quantities at large manufacturers that don't suit their volume"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)",
+      "RoHS Compliant (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Medical Devices",
+      "Automotive",
+      "Electronics"
+    ],
+    "tone": "Technical and solution-focused. Content should highlight engineering expertise and domestic supply chain advantages.",
+    "avoid": [
+      "Generic magnet content",
+      "Claims beyond demonstrated capability"
+    ],
+    "past_topics": [],
+    "approval_contact": "TBD",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Not started yet."
+  },
+  {
+    "id": "heiq-chemtex",
+    "name": "HeiQ ChemTex Inc.",
+    "pm": "Kristyna",
+    "writer": "Ryann",
+    "industry": "Textile Chemicals & Specialty Chemical Finishing",
+    "what_they_make": "Specialty chemical treatments and finishing agents for textiles, fabrics, and technical materials, including antimicrobial, water repellent, and performance-enhancing chemical treatments.",
+    "who_they_sell_to": "Textile manufacturers, performance apparel brands, technical fabric producers, and industrial textile companies seeking specialty chemical finishing solutions",
+    "key_differentiators": [
+      "Proprietary specialty chemical formulations for textile performance enhancement",
+      "Antimicrobial and moisture management technology",
+      "Technical application support and testing capabilities",
+      "Compliance with international chemical regulations"
+    ],
+    "common_customer_pain_points": [
+      "Consumer demand for performance textiles that standard finishes can't meet",
+      "Regulatory compliance complexity for chemical treatments in global markets",
+      "Finding consistent specialty chemistry at commercial scale"
+    ],
+    "certifications": [
+      "OEKO-TEX (inferred)",
+      "bluesign (inferred)",
+      "REACH Compliant"
+    ],
+    "target_industries": [
+      "Performance Apparel",
+      "Technical Textiles",
+      "Medical Textiles",
+      "Home Furnishings"
+    ],
+    "tone": "Technical and innovation-focused. Buyers are technical managers and product developers. Content should highlight the performance benefits and compliance credibility of their chemistry.",
+    "avoid": [
+      "Vague sustainability claims without certification backing",
+      "Oversimplifying complex chemical performance"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Content marketing to begin once website goes live."
+  },
+  {
+    "id": "hy-tech-spring",
+    "name": "Hy Tech Spring and Machine Co.",
+    "pm": "Alison",
+    "writer": "Jake",
+    "industry": "Precision Spring Manufacturing & CNC Machining",
+    "what_they_make": "Custom precision springs (compression, extension, torsion, flat) and CNC machined components for OEM customers across industrial, automotive, and medical markets.",
+    "who_they_sell_to": "Engineers and procurement managers at OEMs requiring custom springs or precision machined components for assemblies and equipment",
+    "key_differentiators": [
+      "Custom spring design and engineering support",
+      "CNC machining capability alongside spring manufacturing for one-stop sourcing",
+      "Wide range of materials including stainless, music wire, and specialty alloys",
+      "Low minimum order quantities for prototypes and specialty runs"
+    ],
+    "common_customer_pain_points": [
+      "Long lead times for custom springs from large national suppliers",
+      "Minimum order quantities that don't fit prototype or specialty needs",
+      "Finding a single source for both springs and machined components"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Medical Devices",
+      "Automotive",
+      "Electronics",
+      "Defense"
+    ],
+    "tone": "Technical and straightforward. Buyers are engineers. Content should focus on engineering capability, material options, and the advantage of combining spring and machining under one roof.",
+    "avoid": [
+      "Generic spring content",
+      "Oversimplifying spring design considerations"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Good spot. Stable relationship."
+  },
+  {
+    "id": "hycrete-broadview",
+    "name": "Hycrete (a division of Broadview)",
+    "pm": "Ryan",
+    "writer": "Jake",
+    "industry": "Concrete Waterproofing Admixture / Construction Chemicals",
+    "what_they_make": "Proprietary crystalline waterproofing admixture for concrete that provides integral waterproofing protection, used in below-grade construction, tunnels, parking structures, and water containment.",
+    "who_they_sell_to": "Structural engineers, waterproofing consultants, general contractors, and ready-mix concrete producers on commercial and infrastructure construction projects",
+    "key_differentiators": [
+      "Integral waterproofing that becomes part of the concrete matrix \u2014 not a surface coating",
+      "Self-healing properties that seal cracks over time",
+      "Can be specified by engineers for design-build projects",
+      "NSF 61 certified for potable water contact"
+    ],
+    "common_customer_pain_points": [
+      "Below-grade waterproofing failures from membrane systems that crack or delaminate",
+      "Waterproofing that can't be installed in wet or cold conditions",
+      "Liability from waterproofing failures in critical structures"
+    ],
+    "certifications": [
+      "NSF/ANSI 61",
+      "ICC Evaluated (inferred)"
+    ],
+    "target_industries": [
+      "Commercial Construction",
+      "Infrastructure",
+      "Municipal Water",
+      "Parking Structures"
+    ],
+    "tone": "Technical and specification-focused. Buyers are engineers and specifiers. Content should build the technical case for integral waterproofing vs. membranes.",
+    "avoid": [
+      "Oversimplifying the chemistry",
+      "Content that doesn't address the specifier audience"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Division of Broadview Technologies."
+  },
+  {
+    "id": "jonti-craft",
+    "name": "Jonti-Craft",
+    "pm": "TBD",
+    "writer": "TBD",
+    "industry": "Children's Furniture & Educational Furnishings Manufacturing",
+    "what_they_make": "Durable children's furniture and educational furnishings for early childhood, K-12, and childcare settings, including storage units, tables, chairs, and learning center furniture.",
+    "who_they_sell_to": "School administrators, childcare center directors, library professionals, and institutional purchasing departments procuring furniture for educational environments",
+    "key_differentiators": [
+      "Made in the USA with domestic hardwood",
+      "GREENGUARD Gold certified for low chemical emissions",
+      "Purpose-built for heavy institutional use",
+      "Wide product line covering complete classroom furnishing needs"
+    ],
+    "common_customer_pain_points": [
+      "Cheap furniture that breaks quickly under heavy classroom use",
+      "Concern about chemical emissions around children",
+      "Long lead times from overseas furniture suppliers",
+      "Inability to replace or add to sets over time when products are discontinued"
+    ],
+    "certifications": [
+      "GREENGUARD Gold",
+      "CPSC Compliant",
+      "ASTM F963"
+    ],
+    "target_industries": [
+      "Early Childhood Education",
+      "K-12 Education",
+      "Public Libraries",
+      "Childcare"
+    ],
+    "tone": "Warm, credible, and educator-friendly. Buyers are education professionals who care deeply about child safety and learning environments. Content should lead with safety, durability, and learning outcomes.",
+    "avoid": [
+      "Overly corporate or transactional language",
+      "Ignoring the safety and child development angle"
+    ],
+    "past_topics": [],
+    "approval_contact": "TBD",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Not started yet."
+  },
+  {
+    "id": "kay-industries",
+    "name": "Kay Industries",
+    "pm": "Ryan",
+    "writer": "Jake",
+    "industry": "Custom Metal Fabrication & Manufacturing",
+    "what_they_make": "Custom fabricated metal components and assemblies for industrial and OEM customers, including structural fabrications and precision metal parts.",
+    "who_they_sell_to": "OEMs and industrial manufacturers requiring custom fabricated metal parts, assemblies, and structural components",
+    "key_differentiators": [
+      "Full-service fabrication with in-house engineering support",
+      "Responsive quoting and customer service",
+      "Domestic manufacturer with reliable delivery",
+      "Experience with complex custom fabrications"
+    ],
+    "common_customer_pain_points": [
+      "Unreliable lead times from offshore fabrication sources",
+      "Lack of engineering collaboration during the design phase",
+      "Quality inconsistencies across production runs"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)",
+      "AWS Certified Welding (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Agriculture",
+      "Energy",
+      "Defense"
+    ],
+    "tone": "Straightforward and capability-focused. Build trust through demonstrated expertise and reliability.",
+    "avoid": [
+      "Vague quality claims",
+      "Generic metal fabrication content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "knight-carbide",
+    "name": "Knight Carbide, Inc.",
+    "pm": "Alison",
+    "writer": "Jake",
+    "industry": "Carbide Tooling & Precision Grinding",
+    "what_they_make": "Precision carbide cutting tools, blanks, and ground carbide components for machining, metalworking, and industrial applications.",
+    "who_they_sell_to": "CNC machining shops, tool and die makers, and manufacturers requiring high-performance carbide tooling and precision ground carbide components",
+    "key_differentiators": [
+      "Precision carbide grinding to tight tolerances",
+      "Custom tooling geometries not available from standard catalogs",
+      "Carbide material expertise and grade selection support",
+      "Domestic manufacturer with fast lead times on custom orders"
+    ],
+    "common_customer_pain_points": [
+      "Off-the-shelf tooling that doesn't hold up in tough materials or demanding applications",
+      "Long lead times for custom carbide tooling from large suppliers",
+      "Inconsistent tool life from budget carbide sources"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "CNC Machining",
+      "Metal Fabrication",
+      "Tool & Die",
+      "Aerospace",
+      "Medical"
+    ],
+    "tone": "Technical and direct. Buyers are machinists and tool engineers who know their craft. Content should demonstrate carbide expertise and application knowledge.",
+    "avoid": [
+      "Dumbing down tooling content for a non-machinist audience",
+      "Generic tooling claims"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Not super needy. Tough to get feedback or imagery."
+  },
+  {
+    "id": "kuroda-jena-tec",
+    "name": "Kuroda Jena Tec, Inc.",
+    "pm": "Alison",
+    "writer": "Ryann",
+    "industry": "Precision Linear Motion Components",
+    "what_they_make": "Precision linear motion components including ball screws, linear guides, and precision shafts for machine tool, semiconductor, and industrial automation applications.",
+    "who_they_sell_to": "Machine tool builders, automation engineers, semiconductor equipment manufacturers, and OEMs requiring precision linear motion components",
+    "key_differentiators": [
+      "High-precision components meeting JIS and ISO standards",
+      "US-based application engineering and distribution support",
+      "Broad product range covering linear motion system needs",
+      "Strong technical support for precision motion applications"
+    ],
+    "common_customer_pain_points": [
+      "Long lead times for precision components from overseas manufacturers",
+      "Difficulty getting technical support for complex motion applications",
+      "Quality and specification consistency across production quantities"
+    ],
+    "certifications": [
+      "JIS Certified",
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Machine Tools",
+      "Semiconductor Equipment",
+      "Industrial Automation",
+      "Medical Devices"
+    ],
+    "tone": "Highly technical and precision-focused. Buyers are motion engineers and technical procurement professionals. Content must be accurate and specification-driven.",
+    "avoid": [
+      "Imprecise technical claims",
+      "Generic motion control content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Publishes blogs on their own site."
+  },
+  {
+    "id": "liberty-molds",
+    "name": "Liberty Molds, Inc.",
+    "pm": "Alison",
+    "writer": "Ryann",
+    "industry": "Injection Mold Manufacturing & Tooling",
+    "what_they_make": "Custom injection molds, tooling, and mold components for plastic injection molding operations across a range of industries and part complexities.",
+    "who_they_sell_to": "Injection molding shops, plastics manufacturers, and OEMs who need custom mold tooling built to specification",
+    "key_differentiators": [
+      "Precision mold manufacturing with tight tolerances",
+      "Engineering support for mold design and DFM",
+      "In-house CNC machining, EDM, and polishing capabilities",
+      "Experience with complex multi-cavity and hot runner mold designs"
+    ],
+    "common_customer_pain_points": [
+      "Offshore molds that arrive with dimensional issues or require rework",
+      "Long overseas lead times delaying product launches",
+      "Lack of engineering collaboration during the mold design phase"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Plastics Manufacturing",
+      "Medical Devices",
+      "Consumer Products",
+      "Automotive"
+    ],
+    "tone": "Technical and collaborative. Buyers are tooling engineers and operations managers at injection molding facilities. Content should focus on precision, engineering support, and the cost of getting tooling wrong.",
+    "avoid": [
+      "Oversimplifying mold complexity",
+      "Generic tooling content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "10 hours of marketing support per month. Biweekly cadence."
+  },
+  {
+    "id": "linfor",
+    "name": "Linfor, Inc.",
+    "pm": "Ryan",
+    "writer": "Jake",
+    "industry": "Custom Manufacturing / Industrial Products",
+    "what_they_make": "Custom manufactured industrial products and components for OEM and industrial customers. (inferred \u2014 specific product line to be confirmed with client)",
+    "who_they_sell_to": "OEMs and industrial buyers requiring custom manufactured components or products",
+    "key_differentiators": [
+      "Custom manufacturing capability to customer specifications",
+      "Domestic manufacturer with reliable delivery",
+      "Experienced team with industrial manufacturing expertise",
+      "Responsive quoting and customer service"
+    ],
+    "common_customer_pain_points": [
+      "Difficulty finding domestic manufacturers for custom requirements",
+      "Long lead times and quality issues from offshore sources",
+      "Lack of responsiveness from larger manufacturers"
+    ],
+    "certifications": [],
+    "target_industries": [
+      "Industrial Manufacturing",
+      "OEM",
+      "Commercial"
+    ],
+    "tone": "Professional and capability-focused. Content should build credibility and highlight manufacturing expertise.",
+    "avoid": [
+      "Overpromising on capabilities without confirmation from client",
+      "Generic manufacturing content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Profile details to be confirmed with client team."
+  },
+  {
+    "id": "lobepro-rotary-pumps",
+    "name": "LobePro Rotary Pumps",
+    "pm": "Anthony",
+    "writer": "Ryann",
+    "industry": "Industrial Pump Manufacturing",
+    "what_they_make": "Rotary lobe pumps for sanitary, industrial, and municipal applications, including food-grade and chemical-resistant configurations for handling viscous and shear-sensitive fluids.",
+    "who_they_sell_to": "Food and beverage processors, municipal water and wastewater utilities, chemical processors, and pharmaceutical manufacturers requiring positive displacement pumping solutions",
+    "key_differentiators": [
+      "3A Sanitary certified pumps for food and pharmaceutical applications",
+      "Wide range of materials for chemical compatibility with aggressive fluids",
+      "Direct manufacturer support with technical sizing expertise",
+      "US-based parts availability with faster lead times vs. European competitors"
+    ],
+    "common_customer_pain_points": [
+      "Pump selection complexity for highly viscous or shear-sensitive products",
+      "Downtime and product loss from pump failures in critical processes",
+      "Sanitary compliance and CIP cleanability requirements in food and pharma"
+    ],
+    "certifications": [
+      "3A Sanitary",
+      "ATEX (select models)"
+    ],
+    "target_industries": [
+      "Food & Beverage",
+      "Municipal Wastewater",
+      "Chemical Processing",
+      "Pharmaceutical"
+    ],
+    "tone": "Technical but accessible. Strong content history. Lean into application-specific use cases. Buyers range from process engineers to plant managers.",
+    "avoid": [
+      "Generic pump content that doesn't differentiate lobe pumps from centrifugal",
+      "Oversimplifying pump selection"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog",
+      "Email",
+      "LinkedIn"
+    ],
+    "notes": "Great content historically. Slow on email approvals. Parts sales have dropped off."
+  },
+  {
+    "id": "maca-casting-machine",
+    "name": "Maca Casting and Machine",
+    "pm": "Anthony",
+    "writer": "Ryann",
+    "industry": "Metal Casting & CNC Machining",
+    "what_they_make": "Metal castings combined with precision CNC machining, providing fully finished cast components to tight dimensional requirements for OEM customers.",
+    "who_they_sell_to": "OEMs requiring fully machined cast components who want casting and machining sourced from a single supplier",
+    "key_differentiators": [
+      "Integrated casting and machining capability under one roof",
+      "Eliminates the quality and scheduling risk of a two-supplier approach",
+      "Experience with complex casting geometries and tight machining tolerances",
+      "Strong customer relationships and consultative approach"
+    ],
+    "common_customer_pain_points": [
+      "Managing separate casting and machining suppliers with mismatched quality or scheduling",
+      "Dimensional issues introduced when a machining shop works from castings they didn't produce",
+      "Long supply chain for finished cast and machined components from overseas"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Agriculture",
+      "Hydraulics",
+      "Automotive"
+    ],
+    "tone": "Consultative and technically credible. High tier client. Content should reflect the value of the integrated casting + machining model. Contact reads blogs aloud on calls \u2014 write for verbal clarity as well as reading.",
+    "avoid": [
+      "Overly technical casting metallurgy without business context",
+      "Fragmented content that misses the integrated value prop"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "High tier client. Reads blogs aloud on calls. Did website updates and GMB listing updates."
+  },
+  {
+    "id": "mae-eitel",
+    "name": "MAE-Eitel Inc.",
+    "pm": "Alison",
+    "writer": "Jake",
+    "industry": "Precision Machining & Contract Manufacturing",
+    "what_they_make": "Precision machined components and contract manufactured assemblies for industrial and OEM customers, with capabilities across multiple machining processes.",
+    "who_they_sell_to": "OEMs and industrial manufacturers requiring precision machined components and sub-assemblies",
+    "key_differentiators": [
+      "Precision machining across turning, milling, and grinding",
+      "Assembly and sub-assembly capability",
+      "Consistent quality with strong inspection processes",
+      "Responsive customer service and engineering support"
+    ],
+    "common_customer_pain_points": [
+      "Quality issues from offshore machining suppliers",
+      "Difficulty finding a domestic shop with both machining and assembly capability",
+      "Long lead times disrupting production schedules"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Defense",
+      "Medical",
+      "Aerospace"
+    ],
+    "tone": "Professional and technically credible. Autumn has owned historically \u2014 follow her established voice for this client.",
+    "avoid": [
+      "Generic machining content",
+      "Vague quality claims"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
   },
   {
     "id": "maxwell-lighting",
     "name": "Maxwell Lighting",
     "pm": "Becky",
-    "writer": "Whitney",
+    "writer": "Ryann",
     "industry": "Commercial Lighting",
-    "what_they_make": "Custom and specification-grade commercial lighting solutions for new construction and lighting retrofit projects",
-    "who_they_sell_to": "Electrical contractors, architects and designers, building owners and facility managers, general contractors",
+    "what_they_make": "Specification-grade commercial lighting solutions for new construction and lighting retrofit projects, including LED fixtures, controls, and complete lighting design services.",
+    "who_they_sell_to": "Electrical contractors, architects and lighting designers, building owners and facility managers, and general contractors on commercial construction and renovation projects",
     "key_differentiators": [
-      "Specification-grade product knowledge and consulting",
-      "Strong local relationships with contractors and designers",
+      "Specification-grade product knowledge and project consulting",
+      "Strong local relationships with contractors and specifiers",
       "Energy audit and ROI modeling for retrofit projects",
-      "Fast project turnaround and reliable delivery"
+      "Fast project delivery with reliable local support"
     ],
     "common_customer_pain_points": [
-      "Energy costs from outdated lighting",
-      "Compliance with energy codes (ASHRAE, Title 24)",
-      "Complexity of specifying the right fixtures for a project"
+      "High energy costs and poor light quality from outdated lighting systems",
+      "Complexity of specifying the right fixtures for code compliance (ASHRAE, Title 24)",
+      "Contractors who sell product without understanding the full project requirements"
     ],
-    "certifications": ["DLC Listed Products", "Energy Star"],
-    "target_industries": ["Commercial Real Estate", "Industrial Facilities", "Municipal", "Hospitality", "Healthcare"],
-    "tone": "Consultative and educational. Owner is now a believer in SEO and content after seeing results. Very happy client.",
-    "avoid": ["Overly product-focused content without educational angle"],
-    "past_topics": ["LED retrofit ROI", "How to read a lighting spec sheet", "Choosing color temperature for commercial spaces"],
+    "certifications": [
+      "DLC Listed Products",
+      "Energy Star"
+    ],
+    "target_industries": [
+      "Commercial Real Estate",
+      "Industrial Facilities",
+      "Municipal",
+      "Hospitality",
+      "Healthcare"
+    ],
+    "tone": "Consultative and educational. Owner is a believer in marketing and very happy with results. Becky wants to add case studies \u2014 lean into project stories and ROI when possible.",
+    "avoid": [
+      "Overly product-focused content that misses the educational angle",
+      "Technical spec sheets without buyer context"
+    ],
+    "past_topics": [],
     "approval_contact": "Owner (direct)",
-    "services": ["Blog", "Email", "Social Media"],
-    "notes": "One of oldest/first clients. Built their site. Becky wants to add case studies. Very happy with marketing results."
+    "services": [
+      "Blog",
+      "Email",
+      "Social Media"
+    ],
+    "notes": "One of oldest clients. Very happy with marketing. Becky wants to add case studies."
   },
   {
-    "id": "mectron-inspection",
+    "id": "mectron-inspection-engineering",
     "name": "Mectron Inspection Engineering",
     "pm": "Anthony",
     "writer": "Ryann",
-    "industry": "Precision Inspection Equipment",
-    "what_they_make": "Custom automated inspection and vision systems for high-precision manufacturing environments, including gauging, vision, and part sorting systems",
-    "who_they_sell_to": "Tier 1 and Tier 2 automotive suppliers, aerospace manufacturers, medical device manufacturers, precision machining shops",
+    "industry": "Precision Inspection & Automated Vision Systems",
+    "what_they_make": "Custom automated inspection systems, vision systems, and gauging equipment for high-precision manufacturing environments \u2014 including part sorting, dimensional verification, and defect detection systems.",
+    "who_they_sell_to": "Quality engineers, manufacturing engineers, and plant managers at tier 1 and tier 2 automotive suppliers, aerospace manufacturers, and precision machining operations",
     "key_differentiators": [
-      "Fully custom engineered inspection systems (not off-the-shelf)",
-      "Deep automotive and aerospace domain expertise",
-      "Integration with existing production lines",
-      "Long-term service and calibration support"
+      "Fully custom-engineered systems (not off-the-shelf)",
+      "Deep automotive and aerospace inspection domain expertise",
+      "Seamless integration with existing production lines",
+      "Long-term service, calibration, and support"
     ],
     "common_customer_pain_points": [
-      "Scrap and rework costs from missed defects",
-      "Customer audit failures due to inspection gaps",
+      "Scrap and rework costs from missed defects reaching the customer",
+      "Customer audit failures due to inspection process gaps",
       "Labor costs and inconsistency of manual inspection"
     ],
-    "certifications": ["ISO 9001:2015"],
-    "target_industries": ["Automotive", "Aerospace", "Medical Devices", "Precision Manufacturing"],
-    "tone": "Technical and credible. Long sales cycle (systems sell for ~$1.5M). Content should build credibility and trust over time, not push for quick conversion.",
-    "avoid": ["Oversimplification of technical concepts", "Pricing mentions"],
-    "past_topics": ["Vision system vs. manual inspection ROI", "How to spec a custom gauging system", "IATF 16949 inspection requirements"],
-    "approval_contact": "Primary contact at Mectron",
-    "services": ["Blog"],
-    "notes": "Great 2-year relationship. Slow to approve content. Machines sell for $1.5M - long sales cycle. Tariffs hitting hard right now - could be a content angle."
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "target_industries": [
+      "Automotive",
+      "Aerospace",
+      "Medical Devices",
+      "Precision Manufacturing"
+    ],
+    "tone": "Technical and credibility-building. $1.5M machines and long sales cycles mean content needs to build trust over time, not drive quick conversions. Tariff impact on customers is a timely angle.",
+    "avoid": [
+      "Oversimplifying the engineering",
+      "Pricing or ROI claims without customer data",
+      "Pushy CTAs"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Great 2-year relationship. Slow to approve. Machines sell for ~$1.5M. Long sales cycle. Tariffs hitting hard right now."
   },
   {
-    "id": "lobepro-pumps",
-    "name": "LobePro Rotary Pumps",
-    "pm": "Anthony",
-    "writer": "Whitney",
-    "industry": "Industrial Pump Manufacturing",
-    "what_they_make": "Rotary lobe pumps for sanitary, industrial, and municipal applications, including food-grade and chemical-resistant configurations",
-    "who_they_sell_to": "Food and beverage processors, municipal water and wastewater utilities, chemical processors, pharmaceutical manufacturers",
+    "id": "medfab-precision-solutions",
+    "name": "MedFab Precision Solutions",
+    "pm": "Becky",
+    "writer": "Jake",
+    "industry": "Medical Device Contract Manufacturing",
+    "what_they_make": "Precision contract manufactured components and assemblies for the medical device industry, including machined, fabricated, and finished components to FDA-regulated quality standards.",
+    "who_they_sell_to": "Medical device OEMs and design engineers requiring precision contract manufacturing with full quality documentation, traceability, and regulatory compliance",
     "key_differentiators": [
-      "3A Sanitary certified pumps for food-grade applications",
-      "Wide range of materials for chemical compatibility",
-      "Direct manufacturer support and technical sizing expertise",
-      "Parts availability and fast lead times vs. European competitors"
+      "FDA-registered facility with medical device manufacturing expertise",
+      "Full quality documentation and lot traceability",
+      "Precision machining and fabrication to tight medical tolerances",
+      "Experience with Class I, II, and III device components"
     ],
     "common_customer_pain_points": [
-      "Pump selection complexity for viscous or shear-sensitive products",
-      "Downtime from pump failures in critical processes",
-      "Sanitary compliance requirements in food/pharma"
+      "Finding a contract manufacturer who understands FDA quality requirements",
+      "Traceability and documentation requirements for regulated components",
+      "Quality failures from commercial machining shops not versed in medical standards"
     ],
-    "certifications": ["3A Sanitary", "ATEX (select models)"],
-    "target_industries": ["Food & Beverage", "Municipal Wastewater", "Chemical Processing", "Pharmaceutical"],
-    "tone": "Technical but accessible. Good content, but slow on email approvals. Content should lean into application-specific use cases.",
-    "avoid": ["Generic pump content that doesn't differentiate rotary lobe from centrifugal"],
-    "past_topics": ["Rotary lobe vs. centrifugal pumps", "Pump selection for high-viscosity fluids", "Sanitary pump CIP cleaning best practices"],
+    "certifications": [
+      "ISO 13485",
+      "FDA Registered",
+      "ISO 9001:2015"
+    ],
+    "target_industries": [
+      "Medical Devices",
+      "Diagnostics",
+      "Surgical Equipment",
+      "Life Sciences"
+    ],
+    "tone": "Precise, compliance-aware, and credibility-focused. Buyers are quality engineers and procurement managers at regulated companies. Every claim must be accurate.",
+    "avoid": [
+      "Vague quality claims",
+      "Anything that could be misread as a regulatory claim",
+      "Generic machining content"
+    ],
+    "past_topics": [],
     "approval_contact": "Primary contact",
-    "services": ["Blog", "Email", "LinkedIn"],
-    "notes": "Great content historically. Slow on email approval due to formatting. Parts sales dropped off - could be a pain point to address in content."
+    "services": [
+      "Blog"
+    ],
+    "notes": "Reduced to 10-20 hours/month with 15 as the sweet spot."
+  },
+  {
+    "id": "microtool-company",
+    "name": "MicroTool Company, Inc.",
+    "pm": "Kerrie",
+    "writer": "Jake",
+    "industry": "Precision Micro Tooling & Miniature Cutting Tools",
+    "what_they_make": "Precision micro cutting tools, miniature end mills, drills, and specialty tooling for micro-machining applications in medical, electronics, and precision instrument manufacturing.",
+    "who_they_sell_to": "CNC machinists, process engineers, and tooling managers at medical device manufacturers, electronics companies, and precision instrument makers working with very small features and tight tolerances",
+    "key_differentiators": [
+      "Extreme precision in micro-scale tooling geometries",
+      "Custom tool design for non-standard micro-machining applications",
+      "Domestic manufacturer with fast lead times on custom micro tools",
+      "Application engineering support for micro-machining challenges"
+    ],
+    "common_customer_pain_points": [
+      "Standard tooling that can't hold up in micro-machining applications",
+      "Long lead times for custom micro tools from overseas suppliers",
+      "Inconsistent tool geometry at micro scale affecting part quality"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Medical Devices",
+      "Electronics",
+      "Aerospace",
+      "Precision Instruments"
+    ],
+    "tone": "Highly technical and precise. Buyers are machining specialists and engineers. Content must demonstrate micro-tooling expertise and application knowledge.",
+    "avoid": [
+      "Generic tooling content",
+      "Imprecise technical claims"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "miyama-usa",
+    "name": "Miyama USA",
+    "pm": "Ryan",
+    "writer": "Jake",
+    "industry": "Precision Stamping & Metal Components",
+    "what_they_make": "Precision stamped metal components and progressive die stampings for automotive, electronics, and industrial OEM applications, backed by Japanese manufacturing quality standards.",
+    "who_they_sell_to": "OEMs and tier-1 suppliers requiring precision stamped components, particularly in automotive and electronics",
+    "key_differentiators": [
+      "Japanese quality standards applied in US manufacturing",
+      "Precision progressive die stamping capability",
+      "Strong automotive quality systems (IATF 16949)",
+      "US-based operations with domestic lead times"
+    ],
+    "common_customer_pain_points": [
+      "Quality variability from domestic stamping suppliers",
+      "Difficulty finding a stamper with both Japanese quality discipline and US responsiveness",
+      "Long overseas lead times for precision stampings"
+    ],
+    "certifications": [
+      "IATF 16949",
+      "ISO 9001:2015"
+    ],
+    "target_industries": [
+      "Automotive",
+      "Electronics",
+      "Industrial Equipment"
+    ],
+    "tone": "Professional and quality-focused. Blend of Japanese manufacturing heritage and US responsiveness is a differentiator worth highlighting.",
+    "avoid": [
+      "Generic stamping content",
+      "Over-relying on the Japan angle without US operational context"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "mw-piping-fabrication",
+    "name": "MW Piping Fabrication, LLC",
+    "pm": "Becky",
+    "writer": "Ryann",
+    "industry": "Custom Piping Fabrication",
+    "what_they_make": "Custom-fabricated piping systems and spools for industrial, oil & gas, and mechanical contractors, including carbon steel, stainless, and alloy pipe to ASME code.",
+    "who_they_sell_to": "Mechanical contractors, industrial plant owners, refineries, chemical plants, and power generation facilities requiring code-compliant piping fabrication",
+    "key_differentiators": [
+      "AWS-certified welders on staff",
+      "ASME B31.3 and B31.1 process and power piping code compliance",
+      "In-house NDE/NDT testing and quality documentation",
+      "Fast turnaround on custom spool fabrication vs. field welding"
+    ],
+    "common_customer_pain_points": [
+      "Field welds causing schedule delays and quality risk on construction projects",
+      "Finding a fabricator that can meet ASME code requirements with documentation",
+      "Quality traceability documentation required by plant owners"
+    ],
+    "certifications": [
+      "ASME B31.3",
+      "ASME B31.1",
+      "AWS D1.1"
+    ],
+    "target_industries": [
+      "Oil & Gas",
+      "Chemical Processing",
+      "Power Generation",
+      "Industrial Construction"
+    ],
+    "tone": "Technical and code-focused. Recently very happy with marketing \u2014 just got a job from organic search. Momentum is building. Content should be specific and technically credible.",
+    "avoid": [
+      "Content that implies they do work outside their core piping capabilities",
+      "Watered-down technical content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Built site in 2025. Very happy. Just got a job from organic search. Now fully on board with content."
+  },
+  {
+    "id": "pf-machining",
+    "name": "P&F Machining, Inc.",
+    "pm": "Ryan",
+    "writer": "Ryann",
+    "industry": "CNC Precision Machining",
+    "what_they_make": "Precision CNC machined components including turned and milled parts for OEM customers across industrial and commercial markets.",
+    "who_they_sell_to": "OEMs and industrial manufacturers requiring precision machined components with reliable quality and delivery",
+    "key_differentiators": [
+      "Precision machining with tight tolerances",
+      "Consistent quality and strong inspection processes",
+      "Responsive customer service and flexible run sizes",
+      "Domestic manufacturer with fast turnaround"
+    ],
+    "common_customer_pain_points": [
+      "Quality inconsistencies from offshore suppliers",
+      "Long lead times causing production disruptions",
+      "Shops that can't communicate or respond quickly"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Hydraulics",
+      "Automotive",
+      "Defense"
+    ],
+    "tone": "Straightforward and reliable. No issues \u2014 stable, solid relationship. Keep content grounded and practical.",
+    "avoid": [
+      "Generic content",
+      "Overcomplicating simple machining narratives"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "No issues. Stable."
+  },
+  {
+    "id": "pacific-plastic-technology",
+    "name": "Pacific Plastic Technology, Inc.",
+    "pm": "Becky",
+    "writer": "Ryann",
+    "industry": "Custom Injection Molding",
+    "what_they_make": "Custom injection molded plastic components for OEM customers across industrial, medical, and consumer markets, with in-house tooling and production capabilities.",
+    "who_they_sell_to": "Product designers, engineers, and procurement managers at OEMs requiring custom injection molded plastic parts",
+    "key_differentiators": [
+      "In-house mold tooling and production for faster iteration",
+      "Engineering support for DFM (design for manufacturability)",
+      "Wide range of resins including engineering-grade and specialty materials",
+      "Domestic manufacturer with fast turnaround on tooling and production"
+    ],
+    "common_customer_pain_points": [
+      "Long overseas tooling lead times delaying product development timelines",
+      "Dimensional issues and quality problems with offshore injection molded parts",
+      "Lack of engineering collaboration in the part design phase"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)",
+      "ISO 13485 (inferred for medical)"
+    ],
+    "target_industries": [
+      "Medical Devices",
+      "Industrial Equipment",
+      "Consumer Products",
+      "Electronics"
+    ],
+    "tone": "Technical and collaborative. Buyers are product developers and procurement managers. Content should focus on engineering support and the advantage of domestic tooling.",
+    "avoid": [
+      "Generic plastics content",
+      "Oversimplifying injection molding for a non-technical audience"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "panova",
+    "name": "Panova",
+    "pm": "Kerrie",
+    "writer": "Jake",
+    "industry": "Precision Machining & Advanced Manufacturing",
+    "what_they_make": "Precision machined and manufactured components for demanding OEM applications, potentially including advanced materials and complex geometries.",
+    "who_they_sell_to": "OEMs and manufacturers in high-demand industries requiring precision and reliability",
+    "key_differentiators": [
+      "Precision manufacturing to tight specifications",
+      "Engineering support for complex component requirements",
+      "Reliable quality and delivery performance",
+      "Established domestic manufacturing capability"
+    ],
+    "common_customer_pain_points": [
+      "Finding a reliable precision manufacturer for complex requirements",
+      "Quality and schedule reliability from offshore sources",
+      "Lack of engineering collaboration from transactional shops"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Defense",
+      "Medical",
+      "Aerospace"
+    ],
+    "tone": "Professional and consistent. Marketing-only client \u2014 handle with care, didn't love past writer changes. Maintain continuity with Jake's established voice.",
+    "avoid": [
+      "Changes in tone or style that might feel jarring to this client",
+      "Generic content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Lauren (aware)",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Marketing only client. Needs extra attention \u2014 didn't love past writer changes."
+  },
+  {
+    "id": "protective-coatings",
+    "name": "Protective Coatings, Inc.",
+    "pm": "Alison",
+    "writer": "Jake",
+    "industry": "Industrial Coatings & Surface Protection",
+    "what_they_make": "Industrial protective coatings and surface treatment services for metal structures, equipment, and facilities, including corrosion protection, floor coatings, and specialty coating systems.",
+    "who_they_sell_to": "Plant maintenance managers, facility managers, and contractors requiring corrosion protection and surface treatment for industrial and commercial assets",
+    "key_differentiators": [
+      "Deep expertise in corrosion protection system selection",
+      "Full turnkey coating services from surface prep to final coat",
+      "Experience with demanding industrial environments",
+      "Long-lasting systems that reduce total lifecycle cost"
+    ],
+    "common_customer_pain_points": [
+      "Premature coating failures causing expensive re-coating and downtime",
+      "Contractors who apply the wrong system for the environment",
+      "Difficulty specifying the right coating system for a specific substrate and exposure"
+    ],
+    "certifications": [
+      "SSPC Certified (inferred)",
+      "NACE Certified (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Manufacturing",
+      "Oil & Gas",
+      "Municipal Infrastructure",
+      "Commercial Facilities"
+    ],
+    "tone": "Expert and solution-focused. Buyers are maintenance professionals who've dealt with coating failures before. Build credibility through technical specificity.",
+    "avoid": [
+      "Vague durability claims",
+      "Content that sounds like every other coating company"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ram-decorative-metal",
+    "name": "RAM/Decorative Metal",
+    "pm": "Ryan",
+    "writer": "Jake",
+    "industry": "Decorative Metal Fabrication & Architectural Metalwork",
+    "what_they_make": "Custom decorative metal fabrications and architectural metalwork including railings, grilles, panels, and ornamental metalwork for commercial and residential applications.",
+    "who_they_sell_to": "Architects, interior designers, general contractors, and building owners requiring custom decorative metal fabrications for architectural and design applications",
+    "key_differentiators": [
+      "Custom design and fabrication for unique architectural metalwork",
+      "Wide range of metals and finishes",
+      "Collaboration with architects and designers from concept to installation",
+      "High-quality craftsmanship for visible, design-driven applications"
+    ],
+    "common_customer_pain_points": [
+      "Finding a fabricator who can execute on complex custom designs",
+      "Inconsistent quality on decorative work where visual perfection matters",
+      "Long lead times on custom architectural elements that delay project schedules"
+    ],
+    "certifications": [
+      "AWS D1.1 (inferred)"
+    ],
+    "target_industries": [
+      "Architecture & Design",
+      "Commercial Construction",
+      "Hospitality",
+      "High-End Residential"
+    ],
+    "tone": "Creative and craftsmanship-focused, but also technically grounded. Buyers include both designers and contractors. Balance aesthetic appeal with practical capability.",
+    "avoid": [
+      "Overly industrial tone that misses the design audience",
+      "Generic metal fabrication content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "regal-metal-products",
+    "name": "Regal Metal Products Company",
+    "pm": "Kerrie",
+    "writer": "Ryann",
+    "industry": "Custom Metal Fabrication & Stamping",
+    "what_they_make": "Custom metal fabricated and stamped components for OEM customers including sheet metal parts, assemblies, and precision stampings.",
+    "who_they_sell_to": "OEMs and manufacturers requiring custom metal components and fabricated assemblies",
+    "key_differentiators": [
+      "Combined stamping and fabrication capability",
+      "Engineering support for metal component design",
+      "Consistent quality with strong QC processes",
+      "Domestic manufacturer with reliable delivery"
+    ],
+    "common_customer_pain_points": [
+      "Offshore quality issues and long lead times",
+      "Managing multiple suppliers for stamping and fabrication",
+      "Lack of engineering support from transactional metal shops"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "HVAC",
+      "Automotive",
+      "Appliance"
+    ],
+    "tone": "Professional and capability-focused. Straightforward content that demonstrates manufacturing expertise.",
+    "avoid": [
+      "Generic content",
+      "Unverified capability claims"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "reid",
+    "name": "Reid",
+    "pm": "Ryan",
+    "writer": "Ryann",
+    "industry": "Precision Machining & Manufacturing",
+    "what_they_make": "Precision machined and manufactured components for industrial OEM customers across a range of processes and materials.",
+    "who_they_sell_to": "OEMs and industrial manufacturers requiring precision manufactured components with strong quality systems",
+    "key_differentiators": [
+      "Precision manufacturing with tight tolerances",
+      "Strong quality documentation",
+      "Domestic manufacturer with responsive service",
+      "Engineering support for complex requirements"
+    ],
+    "common_customer_pain_points": [
+      "Quality and delivery reliability from offshore sources",
+      "Lack of engineering collaboration from transactional shops",
+      "Difficulty qualifying new suppliers that meet their quality standards"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Defense",
+      "Aerospace",
+      "Medical"
+    ],
+    "tone": "Professional, precise, and credibility-focused. Whitney has owned historically \u2014 maintain established voice.",
+    "avoid": [
+      "Generic machining content",
+      "Unsubstantiated quality claims"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "rg-precision",
+    "name": "RG Precision",
+    "pm": "TBD",
+    "writer": "TBD",
+    "industry": "Precision CNC Machining",
+    "what_they_make": "Precision CNC machined components for OEM customers requiring tight tolerances and high-quality surface finishes across a range of metals.",
+    "who_they_sell_to": "OEMs and industrial manufacturers requiring precision machined components with consistent quality",
+    "key_differentiators": [
+      "Precision machining to tight tolerances",
+      "Consistent quality across production runs",
+      "Domestic manufacturer with fast lead times",
+      "Responsive customer service"
+    ],
+    "common_customer_pain_points": [
+      "Quality inconsistencies from offshore machining suppliers",
+      "Long lead times disrupting production schedules",
+      "Difficulty communicating technical requirements to overseas shops"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Defense",
+      "Medical",
+      "Aerospace"
+    ],
+    "tone": "Technical and straightforward. Build trust through demonstrated machining expertise.",
+    "avoid": [
+      "Generic machining content",
+      "Vague quality claims"
+    ],
+    "past_topics": [],
+    "approval_contact": "TBD",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Not started yet."
+  },
+  {
+    "id": "sw-metal-products",
+    "name": "S&W Metal Products",
+    "pm": "Alison",
+    "writer": "Jake",
+    "industry": "Custom Metal Fabrication",
+    "what_they_make": "Custom fabricated metal components and assemblies for OEM and industrial customers, with full-service capabilities from cutting and forming to welding and finishing.",
+    "who_they_sell_to": "OEMs and manufacturers requiring custom metal fabricated parts and assemblies with reliable quality and delivery",
+    "key_differentiators": [
+      "Full-service metal fabrication from design to delivery",
+      "Second site expanding capacity and capabilities",
+      "Engineering support during the design phase",
+      "Responsive customer service and fast quoting"
+    ],
+    "common_customer_pain_points": [
+      "Suppliers who can't scale with growing demand",
+      "Quality inconsistencies from overseas fabrication",
+      "Slow turnaround on quotes and production"
+    ],
+    "certifications": [
+      "AWS D1.1 (inferred)",
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Agriculture",
+      "Construction",
+      "Energy"
+    ],
+    "tone": "Practical and growth-focused. Launched site and picking up content marketing \u2014 momentum is building. Highlight expanding capabilities and capacity.",
+    "avoid": [
+      "Generic fabrication content",
+      "Overpromising on capacity not yet confirmed"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Launched site, working on second site, picking up content marketing now."
+  },
+  {
+    "id": "scherer",
+    "name": "Scherer, Inc.",
+    "pm": "Ryan",
+    "writer": "Jake",
+    "industry": "Custom Metal Fabrication & Machining",
+    "what_they_make": "Custom metal fabricated and machined components for OEM and industrial customers, with a focus on quality and precision.",
+    "who_they_sell_to": "OEMs and industrial manufacturers requiring custom metal components and assemblies",
+    "key_differentiators": [
+      "Combined fabrication and machining capability",
+      "Precision and quality focus",
+      "Domestic manufacturing with reliable lead times",
+      "Responsive customer service"
+    ],
+    "common_customer_pain_points": [
+      "Managing separate fabrication and machining suppliers",
+      "Quality variability from offshore sources",
+      "Long lead times disrupting production schedules"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Agriculture",
+      "Defense",
+      "Energy"
+    ],
+    "tone": "Professional and direct. Focus on capability and reliability.",
+    "avoid": [
+      "Generic content",
+      "Vague quality claims"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "si-manufacturing",
+    "name": "SI Manufacturing",
+    "pm": "Kerrie",
+    "writer": "Jake",
+    "industry": "Custom Metal Fabrication & Manufacturing",
+    "what_they_make": "Custom manufactured metal components and assemblies for industrial OEM customers, across fabrication and machining processes.",
+    "who_they_sell_to": "OEMs and industrial buyers requiring custom manufactured metal components",
+    "key_differentiators": [
+      "Full-service manufacturing capability",
+      "Engineering support and design collaboration",
+      "Quality systems and inspection",
+      "Domestic supply chain reliability"
+    ],
+    "common_customer_pain_points": [
+      "Supply chain risk from offshore manufacturing",
+      "Quality and delivery inconsistency",
+      "Finding a domestic partner with full manufacturing capability"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Energy",
+      "Defense",
+      "Automotive"
+    ],
+    "tone": "Professional and steady. Note: recently acquired by ISR company \u2014 watch for messaging changes or direction shifts. Maintain Whitney's established voice.",
+    "avoid": [
+      "Anything referencing the acquisition until direction is clear",
+      "Generic content"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Recently acquired by an ISR company. Watch closely."
+  },
+  {
+    "id": "silvex",
+    "name": "Silvex Inc.",
+    "pm": "Becky",
+    "writer": "Jake",
+    "industry": "Precious Metal Refining & Reclaim",
+    "what_they_make": "Precious metal refining, reclaim, and recovery services for industrial manufacturers, electroplating operations, and photographic/dental industries, recovering silver, gold, and platinum group metals.",
+    "who_they_sell_to": "Electroplating shops, dental labs, industrial manufacturers, and photographic processors generating precious metal-bearing waste streams",
+    "key_differentiators": [
+      "Accurate and transparent precious metal settlement",
+      "Fast turnaround on refining and payment",
+      "Ability to process a wide range of precious metal-bearing materials",
+      "Domestic refiner with strong chain of custody documentation"
+    ],
+    "common_customer_pain_points": [
+      "Inaccurate settlements or lack of transparency from refiners",
+      "Slow payment timelines that affect cash flow",
+      "Uncertainty about the value they're leaving behind in waste streams"
+    ],
+    "certifications": [
+      "EPA Compliant (inferred)",
+      "State Licensed Refiner"
+    ],
+    "target_industries": [
+      "Electroplating",
+      "Dental",
+      "Photographic Processing",
+      "Electronics Manufacturing"
+    ],
+    "tone": "Transparent and trustworthy. Buyers are operations managers who are somewhat skeptical of refiners. Content should build credibility and highlight honesty and accuracy.",
+    "avoid": [
+      "Vague settlement language",
+      "Anything that raises questions about transparency"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Launched site a few months ago. Another agency also writing blogs, alternating posts."
+  },
+  {
+    "id": "specialty-machine",
+    "name": "Specialty Machine",
+    "pm": "TBD",
+    "writer": "Ryann",
+    "industry": "CNC Precision Machining",
+    "what_they_make": "Specialty precision machined components for demanding OEM applications, with expertise in complex geometries and difficult-to-machine materials.",
+    "who_they_sell_to": "OEMs requiring specialty machining capability beyond what standard machine shops can offer",
+    "key_differentiators": [
+      "Specialty machining expertise on complex and difficult applications",
+      "Precision across a range of challenging materials",
+      "Engineering support for hard-to-machine component requirements",
+      "Domestic manufacturer with fast turnaround"
+    ],
+    "common_customer_pain_points": [
+      "Standard machine shops that can't handle complex geometries or difficult materials",
+      "Long lead times for specialty components from large shops",
+      "Quality issues on precision-critical specialty parts"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Aerospace",
+      "Medical",
+      "Defense",
+      "Industrial Equipment"
+    ],
+    "tone": "Expert and capability-focused. The word 'specialty' should come through in the content \u2014 this isn't a commodity machining shop.",
+    "avoid": [
+      "Generic machining content that could describe any shop",
+      "Capability claims without specifics"
+    ],
+    "past_topics": [],
+    "approval_contact": "TBD",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Not started yet. Currently working with Enterprise Marketing team."
+  },
+  {
+    "id": "stein-seal",
+    "name": "Stein Seal",
+    "pm": "Kerrie",
+    "writer": "Ryann",
+    "industry": "Precision Sealing Solutions / Engineered Seals",
+    "what_they_make": "Engineered sealing solutions including custom seals, seal assemblies, and specialty sealing systems for demanding aerospace, defense, and industrial applications.",
+    "who_they_sell_to": "Aerospace and defense engineers, industrial equipment OEMs, and procurement managers requiring precision-engineered sealing solutions for critical applications",
+    "key_differentiators": [
+      "Engineering capability for custom seal design in demanding applications",
+      "Aerospace and defense-grade quality and qualification experience",
+      "Material expertise across elastomers, PTFE, and specialty polymers",
+      "Long-term partnership approach with engineering customers"
+    ],
+    "common_customer_pain_points": [
+      "Seal failures in extreme temperature, pressure, or chemical environments",
+      "Finding a seal supplier with aerospace qualification experience",
+      "Off-the-shelf seals that don't perform in non-standard applications"
+    ],
+    "certifications": [
+      "AS9100 (inferred)",
+      "NADCAP (inferred)",
+      "ISO 9001:2015"
+    ],
+    "target_industries": [
+      "Aerospace",
+      "Defense",
+      "Industrial Equipment",
+      "Oil & Gas"
+    ],
+    "tone": "Highly technical and expert. High-stakes, high-tier client who was unhappy about writer changes. Autumn must establish credibility quickly. Content should reflect deep sealing engineering knowledge.",
+    "avoid": [
+      "Generic sealing content",
+      "Anything that feels like a downgrade from previous content quality",
+      "Technical inaccuracies"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "High stakes, high tier client. Was unhappy about losing previous writer Chris. Autumn must build trust quickly."
+  },
+  {
+    "id": "stone-city-products",
+    "name": "Stone City Products",
+    "pm": "Anthony",
+    "writer": "Jake",
+    "industry": "Natural Stone Products & Distribution",
+    "what_they_make": "Natural stone products including countertops, flooring, wall cladding, and custom stone fabrications for residential, commercial, and architectural applications.",
+    "who_they_sell_to": "Contractors, builders, architects, designers, and homeowners requiring natural stone products and custom fabrications",
+    "key_differentiators": [
+      "Wide selection of natural stone materials and finishes",
+      "Custom stone fabrication capability",
+      "Strong project support from selection through installation",
+      "Established trade relationships with contractors and designers"
+    ],
+    "common_customer_pain_points": [
+      "Inconsistent stone quality and color matching across slabs",
+      "Long lead times for custom fabrications on construction schedules",
+      "Finding a supplier with both material variety and fabrication capability"
+    ],
+    "certifications": [],
+    "target_industries": [
+      "Residential Construction",
+      "Commercial Construction",
+      "Architecture & Design",
+      "Hospitality"
+    ],
+    "tone": "Professional and design-aware. Buyers range from contractors to architects. Content should balance practical capability with aesthetic appeal. Note: outside SEO agency and consultant also involved.",
+    "avoid": [
+      "Content that conflicts with outside SEO agency strategy",
+      "Overselling on dimensions not verified"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog",
+      "LinkedIn"
+    ],
+    "notes": "Outside SEO agency also involved. Both demandDrive and consultant producing content. LinkedIn campaign running."
+  },
+  {
+    "id": "superior-machining-fabrication",
+    "name": "Superior Machining & Fabrication",
+    "pm": "Ryan",
+    "writer": "Jake",
+    "industry": "CNC Machining & Metal Fabrication",
+    "what_they_make": "Precision CNC machined components and custom metal fabrications for OEM and industrial customers, combining machining and fabrication under one roof.",
+    "who_they_sell_to": "OEMs and industrial manufacturers requiring both machined and fabricated metal components, looking for a single-source supplier",
+    "key_differentiators": [
+      "Integrated machining and fabrication under one roof",
+      "Eliminates coordination between separate machining and fab suppliers",
+      "Precision across both processes",
+      "Domestic manufacturer with reliable delivery"
+    ],
+    "common_customer_pain_points": [
+      "Coordinating between separate machining and fabrication suppliers",
+      "Quality handoff issues when components move between shops",
+      "Long lead times from offshore sources for both processes"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)",
+      "AWS D1.1 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Agriculture",
+      "Energy",
+      "Defense"
+    ],
+    "tone": "Direct and capability-focused. Jake has owned historically \u2014 solid relationship. Content should highlight the single-source advantage.",
+    "avoid": [
+      "Generic machining or fabrication content that ignores the integrated value prop"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "the-lindgren-group",
+    "name": "The Lindgren Group",
+    "pm": "Ryan",
+    "writer": "Ryann",
+    "industry": "Contract Manufacturing & Industrial Services",
+    "what_they_make": "Contract manufacturing services and industrial solutions for OEM customers, potentially including machining, fabrication, and assembly services.",
+    "who_they_sell_to": "OEMs and industrial manufacturers requiring contract manufacturing support and industrial services",
+    "key_differentiators": [
+      "Broad contract manufacturing capability",
+      "Engineering and project management expertise",
+      "Reliable domestic supply chain",
+      "Long-term partnership approach"
+    ],
+    "common_customer_pain_points": [
+      "Finding a reliable domestic contract manufacturer with broad capability",
+      "Offshore supply chain risk and quality variability",
+      "Lack of single-source accountability"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Defense",
+      "Energy",
+      "Automotive"
+    ],
+    "tone": "Professional and strategic. High tier client. Content should reflect the depth and breadth of a serious contract manufacturing partner.",
+    "avoid": [
+      "Generic contract manufacturing content",
+      "Content that undersells the company's capability"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "High tier client. Joining meeting in January."
+  },
+  {
+    "id": "topcraft-precision",
+    "name": "Topcraft Precision Manufactured Solutions",
+    "pm": "Anthony",
+    "writer": "Ryann",
+    "industry": "CNC Precision Machining & Contract Manufacturing",
+    "what_they_make": "Precision CNC machined components and contract manufactured solutions for OEM customers, with strong quality documentation and traceability.",
+    "who_they_sell_to": "OEMs and manufacturers requiring precision machined components with strong quality systems and reliable delivery",
+    "key_differentiators": [
+      "Precision machining with tight tolerances and strong QC",
+      "Engineering support from design through production",
+      "Strong quality documentation and customer communication",
+      "Domestic manufacturer with fast turnaround"
+    ],
+    "common_customer_pain_points": [
+      "Quality documentation and traceability requirements from end customers",
+      "Unreliable quality from offshore sources",
+      "Difficulty finding a shop that can handle both engineering discussion and production"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Defense",
+      "Medical",
+      "Aerospace"
+    ],
+    "tone": "Professional and expertise-focused. Note: sales not coming in as expected despite content marketing and case studies \u2014 content may need to pivot toward more sales-enablement focused pieces.",
+    "avoid": [
+      "Generic machining content",
+      "Content that doesn't connect to the sales process"
+    ],
+    "past_topics": [
+      "Case studies (done)"
+    ],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Content marketing and case studies created. Sales not coming in as expected \u2014 may need sales-enablement pivot."
+  },
+  {
+    "id": "triangle-rubber-plastics",
+    "name": "Triangle Rubber & Plastics",
+    "pm": "Kerrie",
+    "writer": "Jake",
+    "industry": "Custom Rubber & Plastics Manufacturing",
+    "what_they_make": "Custom molded rubber and plastic components including O-rings, gaskets, seals, bushings, and custom molded shapes for OEM and industrial applications.",
+    "who_they_sell_to": "Engineers and procurement managers at OEMs requiring custom rubber and plastic sealing and vibration isolation components",
+    "key_differentiators": [
+      "Custom compound development for specific performance requirements",
+      "Wide range of rubber and plastic materials and formulations",
+      "In-house tooling and molding capability",
+      "Engineering support for component design and material selection"
+    ],
+    "common_customer_pain_points": [
+      "Off-the-shelf seals and gaskets that don't fit non-standard applications",
+      "Material failures in demanding temperature or chemical environments",
+      "Long lead times from large rubber manufacturers for custom parts"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)",
+      "RoHS Compliant (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Automotive",
+      "HVAC",
+      "Medical",
+      "Aerospace"
+    ],
+    "tone": "Technical and solution-focused. Whitney has owned historically. Buyers are engineers \u2014 content should speak to material selection and application performance.",
+    "avoid": [
+      "Generic rubber and plastics content",
+      "Oversimplifying material selection"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "tryson-metal-stampings",
+    "name": "Tryson Metal Stampings & Manufacturing, Inc.",
+    "pm": "Kerrie",
+    "writer": "Jake",
+    "industry": "Custom Metal Stamping",
+    "what_they_make": "Custom metal stampings and stamped metal components for OEM customers across automotive, industrial, and commercial markets.",
+    "who_they_sell_to": "OEMs and manufacturers requiring custom stamped metal components for assemblies and products",
+    "key_differentiators": [
+      "In-house tooling design and fabrication",
+      "High-volume production capability with consistent quality",
+      "Multiple material options and secondary operations",
+      "Domestic manufacturer with reliable delivery"
+    ],
+    "common_customer_pain_points": [
+      "Quality inconsistencies from offshore stamping suppliers",
+      "Long tooling lead times delaying product launches",
+      "Minimum order requirements that don't fit their volume"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)",
+      "IATF 16949 (inferred)"
+    ],
+    "target_industries": [
+      "Automotive",
+      "Electronics",
+      "Industrial Equipment",
+      "HVAC"
+    ],
+    "tone": "Straightforward and reliable. Note: client is not super passionate about marketing \u2014 keep content clean, simple, and low-friction for approvals. Don't overthink it.",
+    "avoid": [
+      "Overly creative or elaborate content styles",
+      "Long-form content that overextends the client's engagement"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Not super passionate about marketing. Keep it simple and easy to approve."
+  },
+  {
+    "id": "vidon-plastics",
+    "name": "Vidon Plastics, Inc.",
+    "pm": "Becky",
+    "writer": "Jake",
+    "industry": "Custom Injection Molding & Plastic Manufacturing",
+    "what_they_make": "Custom injection molded plastic components and assemblies for OEM and industrial customers, with in-house tooling and finishing capabilities.",
+    "who_they_sell_to": "Product engineers and procurement managers at OEMs requiring custom injection molded plastic parts with reliable quality and delivery",
+    "key_differentiators": [
+      "In-house mold tooling for faster iteration and lower cost",
+      "Engineering support for DFM",
+      "Wide range of engineering resins and specialty materials",
+      "Domestic manufacturer with responsive customer service"
+    ],
+    "common_customer_pain_points": [
+      "Long offshore tooling lead times delaying product development",
+      "Quality issues with overseas injection molded parts",
+      "Lack of engineering collaboration during part design"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Consumer Products",
+      "Medical",
+      "Electronics"
+    ],
+    "tone": "Technical and collaborative. Focus on the advantage of in-house tooling and domestic manufacturing.",
+    "avoid": [
+      "Generic plastics content",
+      "Oversimplifying injection molding"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "winbco-tank-company",
+    "name": "WINBCO Tank Company",
+    "pm": "Anthony",
+    "writer": "Jake",
+    "industry": "Industrial Tank Manufacturing",
+    "what_they_make": "Custom industrial storage tanks, pressure vessels, and tank systems for petroleum, chemical, food, and agricultural applications, manufactured to API, ASME, and UL standards.",
+    "who_they_sell_to": "Petroleum distributors, chemical processors, food manufacturers, and agricultural operations requiring custom storage tanks and pressure vessels within a roughly 1000-mile radius",
+    "key_differentiators": [
+      "Custom tank design and fabrication to customer specifications",
+      "API 650, ASME, and UL 142 code compliance",
+      "Regional focus enables faster delivery and field support",
+      "Experience with a wide range of stored products and environments"
+    ],
+    "common_customer_pain_points": [
+      "Long lead times from national tank manufacturers",
+      "Finding a fabricator who understands the specific regulatory requirements for their product storage",
+      "Tanks that aren't properly designed for the stored medium and environment"
+    ],
+    "certifications": [
+      "API 650",
+      "ASME",
+      "UL 142",
+      "STI (inferred)"
+    ],
+    "target_industries": [
+      "Petroleum & Fuel Distribution",
+      "Chemical Processing",
+      "Food & Beverage",
+      "Agriculture"
+    ],
+    "tone": "Technical and reliable. Niche regional market within ~1000 miles. Good client relationship and good about approvals. PPC could be a future opportunity. Content should emphasize regional expertise and regulatory knowledge.",
+    "avoid": [
+      "National marketing language that misrepresents their geographic focus",
+      "Ignoring the regulatory compliance angle"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Good relationship. Good about approvals. Niche market within ~1000 mile radius. Opportunity for PPC."
   },
   {
     "id": "winona-powder-coating",
@@ -145,55 +2367,122 @@
     "pm": "Alison",
     "writer": "Jake",
     "industry": "Powder Coating & Surface Finishing",
-    "what_they_make": "Industrial powder coating services for metal components, including standard colors, custom colors, and specialty coatings",
-    "who_they_sell_to": "Metal fabricators, OEMs, job shops, and manufacturers needing finished surface treatment on steel, aluminum, and other metals",
+    "what_they_make": "Industrial powder coating services for metal components including standard colors, custom colors, and specialty coatings for steel, aluminum, and other metals.",
+    "who_they_sell_to": "Metal fabricators, OEMs, job shops, and manufacturers needing surface finishing on metal components before assembly or shipment",
     "key_differentiators": [
-      "Fast turnaround (often 2-3 day standard, rush available)",
+      "Fast turnaround \u2014 often 2-3 days standard, rush available",
       "Large batch capacity for production runs",
       "Color matching and custom color development",
       "Thorough surface prep included (sandblast, iron phosphate)"
     ],
     "common_customer_pain_points": [
-      "Slow turnaround from current coating suppliers holding up production",
-      "Inconsistent finish quality",
-      "Hidden costs from inadequate surface prep"
+      "Coating suppliers holding up production with slow turnaround",
+      "Inconsistent finish quality across batches",
+      "Surprises from inadequate surface prep affecting adhesion and durability"
     ],
-    "certifications": [],
-    "target_industries": ["Metal Fabrication", "Agriculture Equipment", "Automotive Aftermarket", "Outdoor Furniture", "Architecture"],
-    "tone": "Straightforward and practical. Client is great about providing photos and feedback. Content can highlight real shop work.",
-    "avoid": ["Overly technical chemistry content"],
-    "past_topics": ["Powder coat vs. liquid paint", "How to prep parts for powder coating", "Choosing the right powder coat for outdoor applications"],
+    "certifications": [
+      "AAMA 2603 (inferred)",
+      "RoHS Compliant (inferred)"
+    ],
+    "target_industries": [
+      "Metal Fabrication",
+      "Agriculture Equipment",
+      "Automotive Aftermarket",
+      "Outdoor Furniture",
+      "Architecture"
+    ],
+    "tone": "Straightforward and practical. Great client \u2014 provides photos and real shop content. Lean into real work examples and specifics rather than generic coating copy.",
+    "avoid": [
+      "Overly technical coating chemistry without buyer context",
+      "Generic surface finishing content"
+    ],
+    "past_topics": [],
     "approval_contact": "Primary contact",
-    "services": ["Blog"],
-    "notes": "Really good about providing photos and feedback. Great client for showing real work."
+    "services": [
+      "Blog"
+    ],
+    "notes": "Really good about providing photos and feedback. Great client for showcasing real work."
   },
   {
-    "id": "mw-piping",
-    "name": "MW Piping Fabrication, LLC",
-    "pm": "Becky",
-    "writer": "Whitney",
-    "industry": "Custom Piping Fabrication",
-    "what_they_make": "Custom-fabricated piping systems and spools for industrial, oil & gas, and mechanical contractors, including carbon steel, stainless, and alloy pipe",
-    "who_they_sell_to": "Mechanical contractors, industrial plant owners, refineries, chemical plants, and power generation facilities",
+    "id": "world-class-industries",
+    "name": "World Class Industries, Inc.",
+    "pm": "Ryan",
+    "writer": "Ryann",
+    "industry": "Precision Contract Manufacturing",
+    "what_they_make": "Precision contract manufactured components and assemblies for demanding industrial and OEM applications, with strong quality systems and engineering support.",
+    "who_they_sell_to": "OEMs and industrial manufacturers requiring precision manufacturing with strong documentation, traceability, and engineering collaboration",
     "key_differentiators": [
-      "AWS-certified welders on staff",
-      "ASME B31.3 and B31.1 code compliance",
-      "In-house NDE/NDT testing",
-      "Fast turnaround on custom spool fabrication"
+      "World-class quality systems and precision manufacturing",
+      "Engineering support from design through production",
+      "Strong quality documentation and customer communication",
+      "Domestic manufacturing with reliable delivery"
     ],
     "common_customer_pain_points": [
-      "Field welds causing schedule delays on construction projects",
-      "Finding a fabricator that can meet ASME code requirements",
-      "Quality documentation for owner/operator requirements"
+      "Offshore quality failures on precision-critical components",
+      "Lack of engineering collaboration from transactional manufacturers",
+      "Quality documentation and traceability requirements not met by standard shops"
     ],
-    "certifications": ["ASME B31.3", "ASME B31.1", "AWS D1.1"],
-    "target_industries": ["Oil & Gas", "Chemical Processing", "Power Generation", "Industrial Construction"],
-    "tone": "Technical and code-focused. Recently very happy with marketing - just got a job because of organic search. Build on that momentum.",
-    "avoid": ["Content that implies they do work outside their core capabilities"],
-    "past_topics": ["Prefabricated piping vs. field welding", "ASME B31.3 process piping overview", "How to spec a piping spool order"],
+    "certifications": [
+      "ISO 9001:2015 (inferred)",
+      "AS9100 (inferred)"
+    ],
+    "target_industries": [
+      "Aerospace",
+      "Defense",
+      "Industrial Equipment",
+      "Medical"
+    ],
+    "tone": "Professional, polished, and capability-focused. High tier client. Content should reflect the level of quality and precision the company represents.",
+    "avoid": [
+      "Generic manufacturing content",
+      "Anything below the quality level the company represents"
+    ],
+    "past_topics": [],
     "approval_contact": "Primary contact",
-    "services": ["Blog"],
-    "notes": "Built site live in 2025. Very happy. Just got a job from organic search. Was reluctant about content early on - now fully on board."
+    "services": [
+      "Blog"
+    ],
+    "notes": "High tier client."
+  },
+  {
+    "id": "world-class-plastics",
+    "name": "World Class Plastics, Inc.",
+    "pm": "Kerrie",
+    "writer": "Jake",
+    "industry": "Custom Injection Molding & Plastic Manufacturing",
+    "what_they_make": "Custom injection molded plastic components and assemblies for OEM customers, with engineering support and in-house tooling capabilities.",
+    "who_they_sell_to": "OEMs and product manufacturers requiring custom injection molded plastics with strong engineering collaboration and domestic lead times",
+    "key_differentiators": [
+      "Engineering support for design for manufacturability",
+      "In-house tooling capability for faster iteration",
+      "Wide range of engineering resins and specialty materials",
+      "World-class quality standards applied to plastic component manufacturing"
+    ],
+    "common_customer_pain_points": [
+      "Long offshore tooling lead times delaying product launches",
+      "Quality failures from overseas injection molding suppliers",
+      "Lack of engineering collaboration in part design"
+    ],
+    "certifications": [
+      "ISO 9001:2015 (inferred)"
+    ],
+    "target_industries": [
+      "Industrial Equipment",
+      "Medical",
+      "Consumer Products",
+      "Electronics"
+    ],
+    "tone": "Technical and quality-focused. Marketing-only client at reduced hours \u2014 keep content efficient and impactful. Whitney has owned historically.",
+    "avoid": [
+      "Generic plastics content",
+      "Overextending into capabilities not confirmed"
+    ],
+    "past_topics": [],
+    "approval_contact": "Primary contact",
+    "services": [
+      "Blog"
+    ],
+    "notes": "Marketing-only client at 20 hours/month."
   },
   {
     "id": "template-client",
@@ -212,13 +2501,20 @@
       "Pain point 1",
       "Pain point 2"
     ],
-    "certifications": ["ISO 9001", "etc."],
-    "target_industries": ["Industry 1", "Industry 2"],
+    "certifications": [],
+    "target_industries": [
+      "Industry 1",
+      "Industry 2"
+    ],
     "tone": "Describe their voice and tone",
-    "avoid": ["Things to avoid in content for this client"],
-    "past_topics": ["Past topic 1", "Past topic 2"],
+    "avoid": [
+      "Things to avoid in content for this client"
+    ],
+    "past_topics": [],
     "approval_contact": "Contact name for approvals",
-    "services": ["Blog", "Email", "LinkedIn"],
+    "services": [
+      "Blog"
+    ],
     "notes": "Any other relevant context for the writer or AI"
   }
 ]
