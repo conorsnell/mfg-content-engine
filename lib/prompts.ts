@@ -4,7 +4,9 @@ export type ContentType =
   | "linkedin"
   | "capability-onepager"
   | "case-study"
-  | "trade-show-followup";
+  | "trade-show-followup"
+  | "snippet"
+  | "rephrase";
 
 export interface ClientProfile {
   id: string;
@@ -34,6 +36,8 @@ export const CONTENT_TYPE_LABELS: Record<ContentType, string> = {
   "capability-onepager": "Capability One-Pager",
   "case-study": "Case Study",
   "trade-show-followup": "Trade Show Follow-Up Email",
+  snippet: "Snippet",
+  rephrase: "Rephrase",
 };
 
 function buildClientContext(client: ClientProfile, sitePages?: string[]): string {
@@ -183,6 +187,33 @@ Write a post-trade-show follow-up email sequence (3 emails). Requirements:
 - Each email: Subject line, 150-250 words, direct CTA
 - Tone: Human and persistent without being pushy
 - Output each email clearly labeled with subject line and body
+`,
+    snippet: `
+CONTENT TYPE: Snippet
+======================
+The writer is working on an article and needs a focused block of copy for a specific section or angle — not a full draft.
+
+Requirements:
+- Length: 1-3 paragraphs (150-300 words max)
+- Write only the section they asked for — no intro, no conclusion, no framing outside the scope of the prompt
+- Be specific and substantive: include real details, industry context, and concrete language relevant to this client
+- Tone should match the client's voice profile
+- Do not add a heading or label — just output the copy block, ready to drop into a draft
+- If the prompt describes a specific H2 subheading or angle, stay tightly scoped to that angle only
+`,
+    rephrase: `
+CONTENT TYPE: Rephrase / Alternatives
+=======================================
+The writer has given you a sentence or paragraph they've already written. Your job is to give them fresh angles to work from.
+
+Requirements:
+- Produce exactly 4 alternative versions of the provided text
+- Each version should take a meaningfully different approach — vary the structure, lead, emphasis, or tone
+- Label each version clearly: **Version 1**, **Version 2**, **Version 3**, **Version 4**
+- After each version, add a single short parenthetical note explaining the angle (e.g., "(leads with the outcome)", "(more direct)", "(technical/credibility angle)", "(conversational)")
+- Keep each version roughly the same length as the original unless tightening or expanding genuinely improves it
+- Do not explain your choices beyond the parenthetical — just output the four versions
+- Stay true to the client's voice and avoid generic marketing language
 `,
   };
 

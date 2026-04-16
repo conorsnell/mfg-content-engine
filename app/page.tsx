@@ -11,6 +11,8 @@ const CONTENT_TYPES: { value: ContentType; label: string; description: string }[
   { value: "capability-onepager", label: "Capability One-Pager", description: "Sales-ready capability overview" },
   { value: "case-study", label: "Case Study", description: "Templated case study with placeholder fields" },
   { value: "trade-show-followup", label: "Trade Show Follow-Up", description: "3-email post-show sequence" },
+  { value: "snippet", label: "Snippet", description: "1–3 paragraphs on a specific angle or subheading" },
+  { value: "rephrase", label: "Rephrase", description: "4 alternative versions of your sentence or paragraph" },
 ];
 
 // ── Markdown renderer ──────────────────────────────────────────────────────────
@@ -320,7 +322,7 @@ export default function Home() {
                 {CONTENT_TYPES.map((type) => (
                   <button
                     key={type.value}
-                    onClick={() => setContentType(type.value)}
+                    onClick={() => { setContentType(type.value); setTopic(""); }}
                     className={`text-left px-3 py-3 rounded-lg border text-sm transition-all ${
                       contentType === type.value
                         ? "border-blue-500 bg-blue-50 text-blue-800"
@@ -340,24 +342,42 @@ export default function Home() {
             <div className="bg-white rounded-xl border border-gray-200 p-6 space-y-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Topic / Focus <span className="text-red-500">*</span>
+                  {contentType === "rephrase" ? (
+                    <>Paste your sentence or paragraph <span className="text-red-500">*</span></>
+                  ) : contentType === "snippet" ? (
+                    <>Section / angle to write <span className="text-red-500">*</span></>
+                  ) : (
+                    <>Topic / Focus <span className="text-red-500">*</span></>
+                  )}
                 </label>
-                <input
-                  type="text"
-                  value={topic}
-                  onChange={(e) => setTopic(e.target.value)}
-                  placeholder={
-                    contentType === "blog"
-                      ? "e.g. Why domestic powder coating beats overseas alternatives"
-                      : contentType === "email"
-                      ? "e.g. Re-engage prospects who attended last trade show"
-                      : contentType === "linkedin"
-                      ? "e.g. A recent job win story or industry insight"
-                      : "Describe the focus of this piece"
-                  }
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  onKeyDown={(e) => e.key === "Enter" && !isGenerating && handleGenerate()}
-                />
+                {contentType === "rephrase" ? (
+                  <textarea
+                    value={topic}
+                    onChange={(e) => setTopic(e.target.value)}
+                    placeholder="Paste the sentence or paragraph you want reworked..."
+                    rows={4}
+                    className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+                  />
+                ) : (
+                  <input
+                    type="text"
+                    value={topic}
+                    onChange={(e) => setTopic(e.target.value)}
+                    placeholder={
+                      contentType === "blog"
+                        ? "e.g. Why domestic powder coating beats overseas alternatives"
+                        : contentType === "email"
+                        ? "e.g. Re-engage prospects who attended last trade show"
+                        : contentType === "linkedin"
+                        ? "e.g. A recent job win story or industry insight"
+                        : contentType === "snippet"
+                        ? "e.g. H2: Why lead times matter more than price in precision machining"
+                        : "Describe the focus of this piece"
+                    }
+                    className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    onKeyDown={(e) => e.key === "Enter" && !isGenerating && handleGenerate()}
+                  />
+                )}
               </div>
 
               <div>
