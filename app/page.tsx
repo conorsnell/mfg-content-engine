@@ -113,6 +113,7 @@ export default function Home() {
   const [draft, setDraft] = useState("");
   const [isGeneratingDraft, setIsGeneratingDraft] = useState(false);
   const [draftViewMode, setDraftViewMode] = useState<"preview" | "markdown">("preview");
+  const [draftError, setDraftError] = useState("");
   const [feedback, setFeedback] = useState("");
   const [isApplyingFeedback, setIsApplyingFeedback] = useState(false);
   const [copyDraftLabel, setCopyDraftLabel] = useState("Copy Draft");
@@ -269,14 +270,16 @@ export default function Home() {
 
   async function handleGenerateDraft() {
     setIsGeneratingDraft(true);
+    setDraftError("");
     setDraft("");
     setDraftViewMode("markdown");
+    setStep("draft");
     try {
       await streamGenerate(
         {
           client: selectedClient,
           contentType: "draft-from-brief",
-          topic: articleTitle || keyword,
+          topic: articleTitle || keyword || "General overview",
           additionalContext: brief
             ? `CONTENT BRIEF:\n${brief}`
             : [keyword && `Target keyword: ${keyword}`, calendarNotes].filter(Boolean).join("\n\n"),
@@ -287,8 +290,8 @@ export default function Home() {
         },
         () => setDraftViewMode("preview")
       );
-    } catch (err) {
-      console.error(err);
+    } catch (err: unknown) {
+      setDraftError(err instanceof Error ? err.message : "Draft generation failed. Check your API key and try again.");
     } finally {
       setIsGeneratingDraft(false);
     }
@@ -892,6 +895,14 @@ export default function Home() {
               </div>
 
               <div className="flex-1 p-6 overflow-hidden flex flex-col">
+                {draftError && !isGeneratingDraft && (
+                  <div className="mb-4 text-sm text-red-700 bg-red-50 border border-red-200 rounded-lg px-4 py-3 flex items-start gap-2">
+                    <svg className="h-4 w-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+                    </svg>
+                    <span>{draftError}</span>
+                  </div>
+                )}
                 {!draft && !isGeneratingDraft && (
                   <div className="h-full flex flex-col items-center justify-center text-center text-gray-400 space-y-3">
                     <svg className="h-10 w-10 text-gray-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
