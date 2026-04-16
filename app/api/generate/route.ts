@@ -69,7 +69,7 @@ async function fetchSitePages(website: string): Promise<string[]> {
 
 export async function POST(req: Request) {
   try {
-    const { client, contentType, topic, additionalContext } = await req.json();
+    const { client, contentType, topic, additionalContext, existingContent } = await req.json();
 
     if (!client || !contentType || !topic) {
       return new Response(JSON.stringify({ error: "Missing required fields: client, contentType, topic" }), {
@@ -78,15 +78,17 @@ export async function POST(req: Request) {
       });
     }
 
-    // For blog posts, fetch the client's site pages for internal linking.
-    // We do this in parallel with nothing else (fast enough), best-effort.
+    // Fetch site pages for blog and draft-from-brief (both produce long-form articles with internal links).
     let sitePages: string[] = [];
-    if (contentType === "blog" && (client as ClientProfile).website) {
+    if (
+      (contentType === "blog" || contentType === "draft-from-brief") &&
+      (client as ClientProfile).website
+    ) {
       sitePages = await fetchSitePages((client as ClientProfile).website!);
     }
 
     const systemPrompt = buildSystemPrompt(client as ClientProfile, contentType as ContentType, sitePages);
-    const userMessage = buildUserMessage(topic, additionalContext);
+    const userMessage = buildUserMessage(topic, additionalContext, existingContent);
 
     const stream = await anthropic.messages.stream({
       model: "claude-sonnet-4-6",

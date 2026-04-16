@@ -6,7 +6,11 @@ export type ContentType =
   | "case-study"
   | "trade-show-followup"
   | "snippet"
-  | "rephrase";
+  | "rephrase"
+  | "brief"
+  | "draft-from-brief"
+  | "linkedin-from-draft"
+  | "email-from-draft";
 
 export interface ClientProfile {
   id: string;
@@ -38,12 +42,17 @@ export const CONTENT_TYPE_LABELS: Record<ContentType, string> = {
   "trade-show-followup": "Trade Show Follow-Up Email",
   snippet: "Snippet",
   rephrase: "Rephrase",
+  brief: "Content Brief",
+  "draft-from-brief": "Draft from Brief",
+  "linkedin-from-draft": "LinkedIn from Draft",
+  "email-from-draft": "Email from Draft",
 };
 
 function buildClientContext(client: ClientProfile, sitePages?: string[]): string {
-  const pagesSection = sitePages && sitePages.length > 0
-    ? `\nClient website pages (for internal linking):\n${sitePages.map((u) => `- ${u}`).join("\n")}`
-    : "";
+  const pagesSection =
+    sitePages && sitePages.length > 0
+      ? `\nClient website pages (for internal linking):\n${sitePages.map((u) => `- ${u}`).join("\n")}`
+      : "";
 
   return `
 CLIENT PROFILE
@@ -215,16 +224,125 @@ Requirements:
 - Do not explain your choices beyond the parenthetical — just output the four versions
 - Stay true to the client's voice and avoid generic marketing language
 `,
+    brief: `
+CONTENT TYPE: Content Brief
+=============================
+Create a detailed content brief that a writer will use to structure and draft the article. This is NOT the article itself — it is a structured outline with guidance.
+
+Output format (follow exactly):
+
+# [Article Title]
+
+**Target Keyword:** [keyword]
+**Content Type:** [type]
+**Word Count Target:** [appropriate range]
+
+---
+
+## Introduction
+*[2-3 sentences describing the hook, the pain point to open on, and the tone/angle for the intro. Do NOT write the intro — describe what it should do.]*
+
+## H2: [Section Title]
+*[1-3 sentences of guidance: what to cover, what angle to take, any specific facts or data points from research to incorporate. Include word count guidance: ~X words.]*
+
+### H3: [Sub-section if needed]
+*[Brief guidance]*
+
+## H2: [Section Title]
+*[Guidance]*
+
+[Continue for all sections — typically 4-6 H2s for a blog post]*
+
+## Conclusion
+*[Guidance on how to close: what to summarize, CTA recommendation.]*
+
+---
+
+**Suggested Meta Title:** [60 chars max]
+**Suggested Meta Description:** [150-160 chars]
+**CTA Recommendation:** [specific, actionable suggestion]
+**Internal Link Opportunities:** [2-3 suggestions if client website is known]
+
+---
+
+Generate a thorough brief that gives the writer a clear roadmap. Each section note should be specific enough that the writer knows exactly what to write — not generic instructions like "discuss benefits" but concrete guidance like "explain why ±0.001\" tolerance matters for aerospace buyers and how it reduces rework costs."
+`,
+    "draft-from-brief": `
+CONTENT TYPE: Draft from Brief
+================================
+The writer has provided a detailed content brief. Write the complete article following the brief's structure.
+
+Requirements:
+- Follow the H2/H3 structure from the brief precisely — do not add, remove, or rename sections
+- Fill each section with substantive, specific content matching the guidance in the brief
+- Length: Match the word count target in the brief (typically 1,200-1,500 words for blog posts)
+- Tone: Match the client's voice profile
+- SEO: Naturally weave in the target keyword and related terms
+- Internal links: If client website pages are provided, weave in 2-4 relevant internal links with descriptive anchor text
+- Output in markdown format with the headline as H1
+
+At the very top of your response, output:
+
+---
+META TITLE: [60 characters max]
+META DESCRIPTION: [150-160 characters]
+---
+
+Then output the full article.
+
+The brief will be provided in the user's message. Treat it as your blueprint — follow it closely.
+`,
+    "linkedin-from-draft": `
+CONTENT TYPE: LinkedIn Posts from Completed Draft
+===================================================
+The writer has provided a finished blog post or article. Create 3 LinkedIn post options that promote it.
+
+Requirements:
+- Write 3 distinct posts, each taking a different angle from the article
+- Label them: **Option 1 — [angle name]**, **Option 2 — [angle name]**, **Option 3 — [angle name]**
+- Each post: 150-300 words, hook in first line (before "see more"), concrete insight or takeaway, CTA to read the article
+- Angle suggestions: lead with a bold claim, lead with a buyer pain point, lead with a specific data point or stat
+- Tone: Conversational and expert. Can be ghostwritten in first person for the company president/owner.
+- Max 3 relevant hashtags per post, at the end
+- No generic "check out our blog" language — each post should stand alone as valuable content
+
+The full article will be provided in the user's message.
+`,
+    "email-from-draft": `
+CONTENT TYPE: Marketing Email from Completed Draft
+====================================================
+The writer has provided a finished blog post or article. Write a marketing email that promotes it.
+
+Requirements:
+- Subject line: 3 options, each under 50 characters, specific and curiosity-driven
+- Preview text: 1 compelling sentence (complements the subject line, max 90 chars)
+- Email body: 200-300 words
+- Structure: Open on the pain point the article addresses → tease 1-2 specific insights from the article → CTA to read it ("Read the full article →" or similar)
+- Tone: Direct and human, not corporate newsletter-speak
+- Output format: Subject Options / Preview Text / Email Body
+
+The full article will be provided in the user's message.
+`,
   };
 
   return baseSystem + "\n\n" + typeInstructions[contentType];
 }
 
-export function buildUserMessage(topic: string, additionalContext?: string): string {
+export function buildUserMessage(
+  topic: string,
+  additionalContext?: string,
+  existingContent?: string
+): string {
   let message = `Topic / focus for this piece: ${topic}`;
+
   if (additionalContext && additionalContext.trim()) {
-    message += `\n\nAdditional context or specific angles to cover:\n${additionalContext}`;
+    message += `\n\nAdditional context:\n${additionalContext}`;
   }
+
+  if (existingContent && existingContent.trim()) {
+    message += `\n\n---\n\n${existingContent}`;
+  }
+
   message += "\n\nPlease write this content now, ready for writer review.";
   return message;
 }
